@@ -1,0 +1,120 @@
+.news{
+    margin: 50px;
+}
+
+.news-h1{
+    padding-left: 550px;
+    padding-bottom: 50px;
+    color: #000;
+    font-size:2rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a {
+    margin-left: 20px;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user i {
+    color: #000;
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.main a:hover {
+    color: #7600bc;
+    transform: scale(1.2);
+}
+
+#menu-icon {
+    font-size: 35px;
+    color: #ea1538;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+/* middle content*/
+#hero{
+    width: 100%;
+    height: 675px;
+
+    background: url(back2.jpg);
+    
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .contentbox{
+    width: 60%;
+    text-align: center;
+    
+}
+#hero .contentbox h1{
+    font-size: 70px;
+    color: #DDC8AF;
+    padding-bottom: 30px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-top: 7px;
+
+}
+#hero .contentbox h2{
+    font-size: 50px;
+    color: #DDC8AF;
+    padding-bottom: 30px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-top: 7px;
+
+}
+#hero .contentbox p{
+    font-family: 'Prata', serif;
+    font-size: 16px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    color: #fff;
+
+}
+#hero .contentbox a{
+    padding: 13px 25px;
+    background: #DDC8AF;
+    color: #2a2a2a;
+    border: none;
+    margin-top: 39px;
+    border-radius: 15px;
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+
+    transition: all 0.3s ease-in-out;
+  
+}
+.team{
+    color:black;
+    display:flex;
+}
+.team-h1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #000;
+    font-size:3rem;
+}
