@@ -135,7 +135,7 @@ header {
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    background-color:rgb(188, 138, 168);
+    background-color:#DDC8AF;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -617,7 +617,4 @@ transition: all 0.3s ease;
 }
 .obj{
     color:black;
-}
-.carousel-item{
-    
 }
