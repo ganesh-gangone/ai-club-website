@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="home.css" />
+    <!-- Demo styles -->
+    
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="ai.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="ml.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="nlp.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="dl.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="cv.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="chatgpt.jpeg">
+            </div>
+            <div class="swiper-slide">
+                <img src="robo.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="genai.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="gaming.jpg">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".slider", {
+            loop: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 50,
+                },
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
