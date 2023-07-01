@@ -8,58 +8,41 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="home.css" />
-   
+    <!-- Demo styles -->
+    
 </head>
 
 <body>
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <div class="swiper slider">
         <div class="swiper-wrapper">
-
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="ai.jpg">
-                </div>
+                <img src="ai.jpg">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="ml.jpg">
-                </div>
-            </div>    
-            <div class="swiper-slide">
-                <div class="slide">
-                    <img src="cv.jpg">
-                </div> 
+                <img src="ml.jpg">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="dl.jpg">
-                </div>
+                <img src="nlp.png">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="nlp.png">
-                </div>
+                <img src="dl.jpg">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="robo.jpg">
-                </div>
+                <img src="cv.jpg">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="chatgpt.jpeg">
-                </div>
+                <img src="chatgpt.jpeg">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="genai.jpg">
-                </div>
+                <img src="robo.jpg">
             </div>
             <div class="swiper-slide">
-                <div class="slide">
-                    <img src="gaming.jpg">
-                </div>
+                <img src="genai.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="gaming.jpg">
+            </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -71,11 +54,13 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            cssMode: true,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+        var swiper = new Swiper(".slider", {
+            loop: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
             },
             breakpoints: {
                 640: {
@@ -93,9 +78,12 @@
             },
             pagination: {
                 el: ".swiper-pagination",
+                clickable: true,
             },
-            mousewheel: true,
-            keyboard: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
     </script>
 </body>

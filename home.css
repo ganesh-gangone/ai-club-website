@@ -26,12 +26,14 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-
-
     /*background: #fff;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 800px;
+    margin-top: 10px;
 }
 
 .swiper-slide img {
@@ -54,3 +56,4 @@ body {
     -o-border-radius: 800px ;
 
 }
+
