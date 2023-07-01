@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+/*navbar*/
+.nav {
+    background-color: #ffffff;
+
+}
+
+.navbar-logo {
+    
+    width: 65px;
+}
+
+
+.navbar-title {
+    color: black;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 160px;
+}
+
+.span {
+    color: #FFDDA9;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: black;
+}
+
+.nav-button {
+    height: 50px;
+    width: 180px;
+    border-radius: 22px;
+    border-width: 0px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+
 .food-munch-logo {
     width: 80px;
     height: 70px;
@@ -25,24 +72,25 @@
     font-family: "Roboto";
 }
 
+/*participants section*/
 .banner-section-bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Top-5-Career-Choices-In-AI-and-Key-Skills-Needed-To-Help-You-Land-One.jpg");
     height: 100vh;
     background-size: cover;
 }
 
 .banner-heading {
-    color: white;
+    color: rgb(23, 16, 53);
     font-family: "Roboto";
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .banner-caption {
-    color: #f5f7fa;
+    color: #283345;
     font-family: "Roboto";
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .custom-button {
@@ -120,34 +168,39 @@
     background-color: white;
 }
 
-.menu-section-heading {
+.heading {
     color: #183b56;
-    font-family: "Roboto";
-    font-size: 28px;
+    font-family: "Cambria";
+    font-size: 50px;
     font-weight: 700;
 }
 
 .menu-item-image {
-    border-radius: 16px;
+    border-radius: 20px;
 }
 
-.menu-card-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 24px;
+.name {
+    text-align: center;
+    color: #183b56;
+    font-family: "Georgia";
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 35px;
 }
 
 .menu-item-link {
     color: #d0b200;
     font-family: "Roboto";
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .menu-item-card {
+    height:50vh;
+    width:15vw;
     border-radius: 16px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .healthy-food-section {
@@ -198,8 +251,11 @@
     margin-right: 28px;
 }
 
+/*thanking section*/
+
 .thanking-customers-section {
-    background-color: #d0b2001a;
+    background-color: #768e911a;
+    width:100vw;
 }
 
 .thanking-customers-section-heading {
@@ -207,10 +263,11 @@
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
+
 }
 
 .thanking-customers-section-description {
-    color: #5a7184;
+    color: #3b5062;
     font-family: "Roboto";
     font-size: 16px;
 }
@@ -222,6 +279,7 @@
 
 .follow-us-section {
     background-color: white;
+    width:100vw;
 }
 
 .follow-us-section-heading {
@@ -233,24 +291,24 @@
 }
 
 .follow-us-icon-container {
-    background-color: #faf7e8;
+    background-color: #0d2436;
     width: 80px;
     height: 80px;
     border-radius: 40px;
     margin: 15px;
-    padding-top: 22px;
-    padding-bottom: 14px;
-    padding-right: 16px;
-    padding-left: 22px;
+    padding: 24px;
 }
 
 .icon {
-    color: #d0b200;
+    color: #f2f2f3;
     font-size: 35px;
+
 }
+/*footer section*/
 
 .footer-section {
     background-color: #0d2436;
+    width:100vw;
 }
 
 .footer-section-mail-id {
@@ -268,10 +326,13 @@
 }
 
 .products-card-button {
+    align-content: center;
     border-radius: 25px;
-    background-color: #2f636e;
+    background-color: #183b56;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     border-width: 0px;
+    padding: 5px;
     width: 15vh;
+    margin: 5px;
 }
