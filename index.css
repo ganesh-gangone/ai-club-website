@@ -618,3 +618,153 @@ transition: all 0.3s ease;
 .obj{
     color:black;
 }
+
+
+
+/* CSS Ruleset of Events */
+.events-bg-container {
+    background-image: url("https://blog.xoxoday.com/content/images/2022/01/Your-Complete-Guide-to-Maximizing-Conversions-from-On-Ground-Events.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.events-card {
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.events-h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.events-para {
+    font-size: 20px;
+}
+
+.events-btn {
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #1ad1ff;
+    color: white;
+    margin-top: 15px;
+    transition: border-color 0.3s;
+    transition: box-shadow 0.3s;
+    transition: transform 0.5s;
+}
+
+.events-btn:hover {
+    border-color: #ffa31a;
+    box-shadow: 0px 0px 5px #b3b3b3;
+    transform: scale(1.1);
+}
+
+.event-list-card {
+    height: 100vh;
+}
+
+.event-list-container {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.event-type-container {
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    margin: 20px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.event-type-container:hover {
+    transform: scale(1.1);
+}
+
+.event-type-headings {
+    font-size: 28px;
+}
+
+.event-para {
+    color: #999999;
+}
+
+.event-register-button {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 0.7s ease-in-out;
+}
+
+.event-register-button:hover {
+    transition: 0.7s ease-in-out;
+    background: #4F95DA;
+    color: white;
+}
+
+.event-back-btn {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #222;
+    padding: 17px 60px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.event-back-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.event-back-btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.event-back-btn:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+/* End of CSS Ruleset related to Events Page */
