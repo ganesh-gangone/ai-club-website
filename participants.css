@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 /*navbar*/
+
 .nav {
     background-color: #ffffff;
 
@@ -74,20 +75,20 @@
 
 /*participants section*/
 .banner-section-bg-container {
-    background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Top-5-Career-Choices-In-AI-and-Key-Skills-Needed-To-Help-You-Land-One.jpg");
+    background-image: url("part.jpg");
     height: 100vh;
     background-size: cover;
 }
 
 .banner-heading {
-    color: rgb(23, 16, 53);
+    color: rgb(240, 238, 246);
     font-family: "Roboto";
     font-size: 50px;
     font-weight: 700;
 }
 
 .banner-caption {
-    color: #283345;
+    color: #d5dadf;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
@@ -335,4 +336,142 @@
     padding: 5px;
     width: 15vh;
     margin: 5px;
+}
+/* footer css*/
+.footerrr{
+    margin-top:45px;
+    width:100%;
+}
+.footer{
+    background-color: #24262d;
+    padding: 70px 89px;
+}
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+ul{
+    list-style: none;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.underline{
+    background-color: #ea1538;
+    width: 60px;
+    padding: 1px;
+    margin-top: -24px;
+    margin-bottom: 35px;
+    
+}
+/*.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}*/
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #fff;
+text-decoration: none;
+font-weight:300;
+color:#bbbbbb;
+display: block;
+transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+.footer-col .social-links a:hover{
+    color:#24262b;
+    background-color: #ffffff;
+}
+
+
+
+.footer-bottom{
+        width: 100%;
+        padding: 80px 28px 40px;
+        
+        text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a{
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 768px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width : 560px){
+    .footer-col{
+        width: 100%;
+    }
+
+    .product{
+        width: 330px;
+        height: 25%;
+    }
+    .containerr{
+        margin-top: 600px;
+    }
+    #hero{
+        margin-top: 97px;
+    }
+    #hero .contentbox h1{
+        font-size: 56px;
+    }
+    .footer{
+        margin-top: 730px;
+    }
 }

@@ -37,23 +37,29 @@ body {
 }
 
 .swiper-slide img {
-    display:block;
+    display: block;
     width: 100%;
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
 }
 
-.slide{
+.slide {
     margin-top: 60px;
     width: 100vw;
-   
+
     height: 80vh;
-    border-radius: 800px ;
-    -webkit-border-radius: 800px ;
-    -moz-border-radius: 800px ;
-    -ms-border-radius: 800px ;
-    -o-border-radius: 800px ;
+    border-radius: 800px;
+    -webkit-border-radius: 800px;
+    -moz-border-radius: 800px;
+    -ms-border-radius: 800px;
+    -o-border-radius: 800px;
 
 }
 
+@media only (max-width: 411px) {
+    .swiper-slide img {
+        width: 50%;
+        height: 50%;
+    }
+}
