@@ -75,20 +75,20 @@
 
 /*participants section*/
 .banner-section-bg-container {
-    background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Top-5-Career-Choices-In-AI-and-Key-Skills-Needed-To-Help-You-Land-One.jpg");
+    background-image: url("part.jpg");
     height: 100vh;
     background-size: cover;
 }
 
 .banner-heading {
-    color: rgb(23, 16, 53);
+    color: rgb(240, 238, 246);
     font-family: "Roboto";
     font-size: 50px;
     font-weight: 700;
 }
 
 .banner-caption {
-    color: #283345;
+    color: #d5dadf;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
