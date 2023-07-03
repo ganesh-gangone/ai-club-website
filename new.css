@@ -359,4 +359,10 @@
 }
 .carousel-inner{
     cycle: true;
+    loop: true;
 }
+@media screen and (max-width : 411px) {
+    .responsive-div {
+        display: flex;
+        flex-direction: column;
+    }
