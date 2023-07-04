@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html >
 
 <head>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="participants.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
         /* Apply cursor style directly to an element */
         h1 {
@@ -17,43 +20,50 @@
 </head>
 
 <body>
-    <nav class="nav">
-        <nav class="col-12 col-md-12 col-lg-12 navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand d-flex flex-row " href="#">
-                <img src="logo.png" class="navbar-logo" />
-                <h1 class="p-2">AI CLUB</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link active mr-3" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link text-dark mr-3" href="#">News</a>
-                    <a class="nav-link text-dark mr-3" href="#">Events</a>
-                    <a class="nav-link text-dark mr-3" href="#">Participants</a>
-                    <a class="nav-link text-dark mr-3" href="#">Team</a>
-                    <a class="nav-link text-dark mr-3" href="#">Contact Us</a>
-                    <a class="nav-link text-dark mr-3" href="#">Contribute</a>
-                </div>
-            </div>
+    <header class="main-head">
+        <nav class="nav">
+           <nav class="col-12 col-md-12 col-lg-12 navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand  d-flex d-row" href="#">
+                   <img src="logo.png" class="navbar-logo" />
+                   <h1 class="navbar-title p-2">AI CLUB</h1>
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                   <div class="navbar-nav ml-auto">
+                       <a class="nav-link active mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+                       <a class="nav-link text-dark mr-3" href="#">News</a>
+                       <a class="nav-link text-dark mr-3" href="#">Events</a>
+                       <a class="nav-link text-dark mr-3" href="#">Participants</a>
+                       <a class="nav-link text-dark mr-3" href="#">Team</a>
+                       <a class="nav-link text-dark mr-3" href="#">Contact Us</a>
+                       <a class="nav-link text-dark mr-3" href="#">Contribute</a>
+                   </div>
+               </div>
+           </nav>
         </nav>
-    </nav>
-    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+    </header>
+
+   <section class="home" id="home">
+     <div class="banner-section-bg-container d-flex justify-content-center flex-column">
         
         <div class="text-center">
-            <h1 class="banner-heading mb-3">Become a part of our team</h1>
+            <h1 class="banner-heading mb-3">BECOME A PART OF OUR TEAM</h1>
             <p class="banner-caption mb-4">Lets join together and run a better future</p>
         </div>
-    </div>
-    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center heading">PARTICIPANTS</h1>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow menu-item-card p-3 mb-3">
+     </div>
+   </section>
+     <section class="" id="newss">
+        <div class="head">
+            <h1>PARTICIPANTS</h1>
+        </div>
+        <div class="news-h1">
+            <h1>PROJECTS</h1>
+        </div>
+                <div class=" container">
+                    <div class="shadow cards">
+                        <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Sanyukta</h1>
                         <div class="text-center">
@@ -94,10 +104,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow menu-item-card p-3 mb-3">
+                 
+                    
+            
+                       <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Pranita Mohanty</h1>
                         <div class="text-center">
@@ -136,12 +146,12 @@
                                     </div>
                                 </div>
                             </div>
+                        
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                    
+                        <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Venkat</h1>
                         <div class="text-center">
@@ -182,9 +192,55 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                        
+
+                    <div class="menu-item-card">
+                        <img src="person_icon.jpg" class="menu-item-image w-100" />
+                        <h1 class="name">Venkat</h1>
+                        <div class="text-center">
+                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
+                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog mt-5">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <hr />
+                                        <div class="modal-body">
+                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
+                                            <ul class="products-card-modal-list">
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
+                                                </li>
+                                            </ul>
+                                            <hr />
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                
+                    <div class=" container">
+                        <div class="shadow cards">      
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Manichandan</h1>
                         <div class="text-center">
@@ -225,10 +281,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Vamshi</h1>
                         <div class="text-center">
@@ -269,10 +324,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Venkat</h1>
                         <div class="text-center">
@@ -313,10 +367,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
+                
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                 
+                      <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Madhurima</h1>
                         <div class="text-center">
@@ -357,10 +412,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="news-h1">
+                        <h1>PPT-PRESENTATIONS</h1>
+                    </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    <div class=" container">
+                        <div class="shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Sana</h1>
                         <div class="text-center">
@@ -401,10 +462,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
+                
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Rupin</h1>
                         <div class="text-center">
@@ -445,9 +507,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    
+            
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Supriya</h1>
                         <div class="text-center">
@@ -488,10 +551,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Sowmya</h1>
                         <div class="text-center">
@@ -532,10 +595,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                        </div>
+                    </div>
+                    
+                    <div class=" container">
+                        <div class="shadow cards">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Saketh</h1>
                         <div class="text-center">
@@ -576,11 +642,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
+                    
+                
+                     <div class="menu-item-card">
+                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Gopi Krishna</h1>
                         <div class="text-center">
                             <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
@@ -620,10 +685,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
+                
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                      <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Sainath</h1>
                         <div class="text-center">
@@ -664,10 +729,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Shreya</h1>
                         <div class="text-center">
@@ -708,10 +773,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                        </div>
+                    </div>
+        
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    <div class=" container">
+                        <div class="shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Thrisha Mahi</h1>
                         <div class="text-center">
@@ -752,10 +820,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Rakesh</h1>
                         <div class="text-center">
@@ -796,10 +864,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+        
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Nainika</h1>
                         <div class="text-center">
@@ -840,10 +908,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                 
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Chakritha</h1>
                         <div class="text-center">
@@ -884,10 +951,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                        </div>
+                    </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    <div class="container">
+                        <div class=" shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Ruchitha</h1>
                         <div class="text-center">
@@ -928,10 +998,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Shiva Priya</h1>
                         <div class="text-center">
@@ -972,10 +1040,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+        
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">A.Srinivas</h1>
                         <div class="text-center">
@@ -1016,10 +1083,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Sai Nandan</h1>
                         <div class="text-center">
@@ -1060,10 +1127,12 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    
+                <div class="container">
+                    <div class=" shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Abhishek</h1>
                         <div class="text-center">
@@ -1104,10 +1173,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Hiteshwar</h1>
                         <div class="text-center">
@@ -1148,10 +1217,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    
+    
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Charan</h1>
                         <div class="text-center">
@@ -1192,10 +1260,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                   
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+            
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Samhitha</h1>
                         <div class="text-center">
@@ -1237,9 +1305,14 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+            </div>
+                    
+            <div class="news-h1">
+                <h1>POSTER-PRESENTATION</h1>
+            </div>
+            <div class="container">
+                <div class=" shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Lavanya</h1>
                         <div class="text-center">
@@ -1280,10 +1353,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                   
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">V.Praneeth</h1>
                         <div class="text-center">
@@ -1324,10 +1397,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Sriniketh</h1>
                         <div class="text-center">
@@ -1368,10 +1439,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                   
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Kannishkitha</h1>
                         <div class="text-center">
@@ -1412,10 +1481,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
+        </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+        <div class="container">
+            <div class=" shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Vaishnavi</h1>
                         <div class="text-center">
@@ -1456,10 +1528,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                    
+            
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Hima Bindu</h1>
                         <div class="text-center">
@@ -1500,10 +1571,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+                   
+                
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Bhanu shree</h1>
                         <div class="text-center">
@@ -1544,10 +1614,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+            
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Bhargavi</h1>
                         <div class="text-center">
@@ -1588,10 +1658,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+        </div>
+        </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+        <div class="container">
+            <div class=" shadow cards">
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Siri Varshini</h1>
                         <div class="text-center">
@@ -1632,10 +1704,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="menu-item-card shadow p-3 mb-3">
+
+            
+                     <div class="menu-item-card">
                         <img src="person_icon.jpg" class="menu-item-image w-100" />
                         <h1 class="name">Vaishnavi</h1>
                         <div class="text-center">
@@ -1676,41 +1748,23 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!--div class="thanking-customers-section pt-5 pb-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
-                                <h1 class="thanking-customers-section-heading">
-                                    Thank you for being a valuable participant.
-                                </h1>
-                                <p class="thanking-customers-section-description">
-                                    We have a surprise gift for you
-                                </p>
-                                <div class="d-md-none">
-                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
-                                </div>
-                                <div>
-                                    <button class="custom-button">Unlock Rewards</button>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-5 d-none d-md-block">
-                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
-                            </div>
-                        </div>
                     </div>
-                </div-->
+                </div>
+            </section>   
+      
+    
+                    
+
                 
-                <!--footer -->
-                <section class="footerrr">
+                 <!--footer -->
+                 <section class="footerrr">
                     <footer class="footer">
                         <div class="container">
                             <div class="row">
                                 <div class="footer-col">
                                     <h4>Menu</h4>
                                     <div class="underline"></div>
-                                    <ul>
+                                    <ul class="p-1">
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">News</a></li>
                                         <li><a href="#">Events</a></li>
@@ -1723,7 +1777,7 @@
                                 <div class="footer-col">
                                     <h4>News</h4>
                                     <div class="underline"></div>
-                                    <ul>
+                                    <ul class="p-1">
                                         <li><a href="#">Trending AI News</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="#">Innovative</a></li>
@@ -1733,7 +1787,7 @@
                                 <div class="footer-col">
                                     <h4>Events</h4>
                                     <div class="underline"></div>
-                                    <ul>
+                                    <ul class="p-1">
                                         <li><a href="#">Upcoming</a></li>
                                         <li><a href="#">Ongoing</a></li>
                                         <li><a href="#">Completed</a></li>
@@ -1748,15 +1802,189 @@
                                         <a href="#"><i class="fab fa-google"></i></a>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
                                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                
                 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                
                     </footer>
-                </section>
+                 </section>
+      </div>
+ </div>
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>
