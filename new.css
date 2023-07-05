@@ -281,7 +281,7 @@
 
 }
 .cor-block-3 {
-    background-image: url(ml.jpg);
+    background-image: url(dl.jpg);
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -293,7 +293,7 @@
 }
 
 .cor-block-4 {
-    background-image: url(ml.jpg);
+    background-image: url(cv.jpg);
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -304,7 +304,7 @@
 
 }
 .cor-block-5 {
-    background-image: url(ml.jpg);
+    background-image: url(nlp.png);
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -314,7 +314,7 @@
     background-position: center;
 }
 .cor-block-6 {
-    background-image: url(ml.jpg);
+    background-image: url(genai.jpg);
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -325,7 +325,7 @@
 
 }
 .cor-block-7 {
-    background-image: url(ml.jpg);
+    background-image: url(chatgpt.jpeg);
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -336,7 +336,7 @@
 
 }
 .cor-block-8 {
-    background-image: url(ml.jpg);
+    background-image: url(robo.jpg);
     background-size: cover;
     width: 100%;
     height: 90vh;
