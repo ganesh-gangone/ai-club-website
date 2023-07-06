@@ -1,0 +1,74 @@
+.event_body{
+    margin-top: 200px;
+    padding-left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.home{
+    margin-top: 30px;
+    background-color: var(--bg-color);
+    background-color:#D9D9D9;
+    border: radius 25px;
+    padding:10px;
+    padding-bottom: 50px;
+    shadow:;
+}
+.imge{
+    display: flex;
+}
+.explore{
+    border: none;
+    margin-left: 18px;
+    padding: 12px;
+   cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    background-color:#DDC8AF;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.explore:hover{
+    background-color:black;
+    color:white;
+}
+.img-1{
+    margin-top: 60px;
+    width: 40vw;
+    margin-right: 50px;
+    height: 80vh;
+    border-radius: 800px ;
+    -webkit-border-radius: 800px ;
+    -moz-border-radius: 800px ;
+    -ms-border-radius: 800px ;
+    -o-border-radius: 800px ;
+}
+hcon{
+
+    margin-top: 200px;
+    padding-left: 75px;
+    
+
+}
+
+.hcon h1{
+
+    font-size:3rem;
+    padding-left:50px;
+    color: #000;
+
+}
+
+.hcon p{
+
+    font-size: .8rem;
+    color: #24262b;
+    line-height: 2.5;
+    padding: 20px;
+
+}
