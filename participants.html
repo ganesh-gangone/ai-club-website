@@ -1,1843 +1,622 @@
-<!DOCTYPE html>
-<html >
+<!Doctype html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+        
+    
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="participants.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <style>
-        /* Apply cursor style directly to an element */
-        h1 {
-          cursor: pointer;
-        }
-      </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        
+    
+        
 </head>
 
 <body>
-    <header class="main-head">
-        <nav class="nav">
-           <nav class="col-12 col-md-12 col-lg-12 navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand  d-flex d-row" href="#">
-                   <img src="logo.png" class="navbar-logo" />
-                   <h1 class="navbar-title p-2">AI CLUB</h1>
-               </a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                   <div class="navbar-nav ml-auto">
-                       <a class="nav-link active mr-3" href="#">Home <span class="sr-only">(current)</span></a>
-                       <a class="nav-link text-dark mr-3" href="#">News</a>
-                       <a class="nav-link text-dark mr-3" href="#">Events</a>
-                       <a class="nav-link text-dark mr-3" href="#">Participants</a>
-                       <a class="nav-link text-dark mr-3" href="#">Team</a>
-                       <a class="nav-link text-dark mr-3" href="#">Contact Us</a>
-                       <a class="nav-link text-dark mr-3" href="#">Contribute</a>
-                   </div>
-               </div>
-           </nav>
-        </nav>
+    <header class="box">
+        <img src="logo.png" alt="" class="logo-1">
+        <a href="#" class="logo"><span>AI CLUB</span></a>
+        <ul class="navbar">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#newss">News</a></li>
+            <li><a href="#best sellers">Events</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="#award">Team</a></li>
+            <li><a href="#featured">Contact Us</a></li>
+            <li><a href="#award">Contribute</a></li>
+        </ul>
+        
     </header>
-
-   <section class="home" id="home">
-     <div class="banner-section-bg-container d-flex justify-content-center flex-column">
-        
-        <div class="text-center">
-            <h1 class="banner-heading mb-3">BECOME A PART OF OUR TEAM</h1>
-            <p class="banner-caption mb-4">Lets join together and run a better future</p>
-        </div>
-     </div>
-   </section>
-     <section class="" id="newss">
-        <div class="head">
-            <h1>PARTICIPANTS</h1>
-        </div>
-        <div class="news-h1">
-            <h1>PROJECTS</h1>
-        </div>
-                <div class=" container">
-                    <div class="shadow cards">
-                        <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Sanyukta</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Show More</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                 
-                    
+    <section class="home" id="home">
+ 
+      <div class="imge bg">
+        <div class="hcon">
+            <h1 class="banner-heading">BECOME A PART OF OUR TEAM</h1>
+            <p class="banner-caption">Lets join together and run a better future</p>
             
-                       <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Pranita Mohanty</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        </div>
-                    </div>
-                
-                    
-                        <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Venkat</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        
-
-                    <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Venkat</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                
-                    <div class=" container">
-                        <div class="shadow cards">      
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Manichandan</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Vamshi</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Venkat</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                
-
-                 
-                      <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Madhurima</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                    
-                    <div class="news-h1">
-                        <h1>PPT-PRESENTATIONS</h1>
-                    </div>
-
-                    <div class=" container">
-                        <div class="shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Sana</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                
-
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Rupin</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-            
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Supriya</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                
-
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Sowmya</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                    
-                    <div class=" container">
-                        <div class="shadow cards">
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Saketh</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                
-                     <div class="menu-item-card">
-                         <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Gopi Krishna</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                
-
-                      <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Sainath</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-
-
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Shreya</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
+        </div>
         
-
-                    <div class=" container">
-                        <div class="shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Thrisha Mahi</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Rakesh</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-        
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Nainika</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                 
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Chakritha</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                    
-
-                    <div class="container">
-                        <div class=" shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Ruchitha</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Shiva Priya</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-        
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">A.Srinivas</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Sai Nandan</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+    </div>
+</section>
+ <section class="news" id="newss">
+    <div class="news-h1">
+        <h1>PARTICIPANTS</h1>
+    </div>
+    <div class="containerr">
+        <div class="products">
+            <div class="product">
+                <div class="imagee">
+                    <img src="0001.jpg" alt="" class="imgg">
                 </div>
-                    
-                <div class="container">
-                    <div class=" shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Abhishek</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                <div class="namePrice">
+                    <h3>SANYUKTHA</h3>
+                </div>
 
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Hiteshwar</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                <p>Introducing Bard, Google's experimental conversational AI service powered by LaMDA — plus, new AI features in Search coming soon.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0000.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>PRANITA MOHANTHY</h3>
+                </div>
+
+                <p>ChatGPT is a chatbot powered by AI (Artificial Intelligence), and it has been developed by a company called OpenAI.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0005.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>VAMSHI</h3>
+                </div>
+
+                <p>Snapchat is the first to join the race and has announced that it is rolling out its own AI(Artificial Intelligence) chatbot.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0006.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>VENKAT</h3>
+                </div>
+
+                <p>Samsung, after creating a lot of hype with AI(Artificial Intelligence) , finally unveiled “Project Neon” last year at CES.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerr">
+    <div class="products">
+        <div class="product">
+            <div class="imagee">
+                <img src="0007.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>RUPIN</h3>
+            </div>
+
+            <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0009.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>MADHURIMA</h3>
+            </div>
+
+            <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0008.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>SANA</h3>
+            </div>
+
+            <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0010.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>SUPRIYA</h3>
+            </div>
+
+            <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="news-h1">
+        <h1>POSTER PRESENTATIONS</h1>
+    </div>
+    <div class="containerr">
+    <div class="products">
+        <div class="product">
+            <div class="imagee">
+                <img src="0007.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>Reliance Jio</h3>
+            </div>
+
+            <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0009.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>AI Need Sleep !!</h3>
+            </div>
+
+            <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0008.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>China's Robot Traffic Police</h3>
+            </div>
+
+            <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0010.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>Flipkart</h3>
+            </div>
+
+            <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="containerr">
+    <div class="products">
+        <div class="product">
+            <div class="imagee">
+                <img src="0007.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>Reliance Jio</h3>
+            </div>
+
+            <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0009.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>AI Need Sleep !!</h3>
+            </div>
+
+            <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0008.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>China's Robot Traffic Police</h3>
+            </div>
+
+            <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="imagee">
+                <img src="0010.jpg" alt="" class="imgg">
+            </div>
+            <div class="namePrice">
+                <h3>Flipkart</h3>
+            </div>
+
+            <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+            <div class="buyy">
+                <button>Know More</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="containerr">
+        <div class="products">
+            <div class="product">
+                <div class="imagee">
+                    <img src="0007.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Reliance Jio</h3>
+                </div>
     
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Charan</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-
-            
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Samhitha</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+                <div class="buyy">
+                    <button>Know More</button>
                 </div>
             </div>
-                    
-            <div class="news-h1">
-                <h1>POSTER-PRESENTATION</h1>
-            </div>
-            <div class="container">
-                <div class=" shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Lavanya</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">V.Praneeth</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Sriniketh</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Kannishkitha</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-                    
-
-        <div class="container">
-            <div class=" shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Vaishnavi</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-            
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Hima Bindu</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Bhanu shree</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-            
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Bhargavi</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        </div>
-        </div>
-
-        <div class="container">
-            <div class=" shadow cards">
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Siri Varshini</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-            
-                     <div class="menu-item-card">
-                        <img src="person_icon.jpg" class="menu-item-image w-100" />
-                        <h1 class="name">Vaishnavi</h1>
-                        <div class="text-center">
-                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">View Details</button>
-                            <div class="modal fade" id="laptopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title products-card-modal-title" id="exampleModalLabel">Inspiron 14.5490 core i5 Laptop</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <hr />
-                                        <div class="modal-body">
-                                            <p class="products-description">Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
-                                            <ul class="products-card-modal-list">
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Performance:</span>Core i5 3rd Gen 2.6 Ghz, 4 GB RAM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Storage:</span>500 GB HDD, SATA, 7200 RPM
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Battery:</span>Li-ion, 6 Cell
-                                                </li>
-                                                <li class="products-card-modal-list-item">
-                                                    <span class="headphones-section">Design:</span>14.0 inches, 1366 X 768, 2.07Kg, 34 Mm Thick
-                                                </li>
-                                            </ul>
-                                            <hr />
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0009.jpg" alt="" class="imgg">
                 </div>
-            </section>   
-      
+                <div class="namePrice">
+                    <h3>AI Need Sleep !!</h3>
+                </div>
     
-                    
+                <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0008.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>China's Robot Traffic Police</h3>
+                </div>
+    
+                <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0010.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Flipkart</h3>
+                </div>
+    
+                <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerr">
+        <div class="products">
+            <div class="product">
+                <div class="imagee">
+                    <img src="0007.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Reliance Jio</h3>
+                </div>
+    
+                <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0009.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>AI Need Sleep !!</h3>
+                </div>
+    
+                <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0008.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>China's Robot Traffic Police</h3>
+                </div>
+    
+                <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0010.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Flipkart</h3>
+                </div>
+    
+                <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news-h1">
+        <h1>PPT PRESENTATIONS</h1>
+    </div>
+    <div class="containerr">
+        <div class="products">
+            <div class="product">
+                <div class="imagee">
+                    <img src="0007.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Reliance Jio</h3>
+                </div>
+    
+                <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0009.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>AI Need Sleep !!</h3>
+                </div>
+    
+                <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0008.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>China's Robot Traffic Police</h3>
+                </div>
+    
+                <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0010.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Flipkart</h3>
+                </div>
+    
+                <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerr">
+        <div class="products">
+            <div class="product">
+                <div class="imagee">
+                    <img src="0007.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Reliance Jio</h3>
+                </div>
+    
+                <p>Reliance Jio Reportedly Hiring Professional for New AI Team</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0009.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>AI Need Sleep !!</h3>
+                </div>
+    
+                <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0008.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>China's Robot Traffic Police</h3>
+                </div>
+    
+                <p>China Now Has a Robot Traffic Police.They taken its expertise in Robotics and AI to the next level.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="imagee">
+                    <img src="0010.jpg" alt="" class="imgg">
+                </div>
+                <div class="namePrice">
+                    <h3>Flipkart</h3>
+                </div>
+    
+                <p>Flipkart Looks To Invest $25 Million in Silicon Valley AI Startups.</p>
+                <div class="buyy">
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!--Event Section-->
+<section id="sectionEvent">
+    <div class="container">
+        <div class="row">
+            <div class="events-bg-container d-flex flex-column justify-content-center">
+                <div class="events-card">
+                    <h1 class="events-h1"> Events </h1>
+                    <p class="events-para"> Explore the depths of your creativity and learn new skills at our interactive workshop, designed to inspire and empower. Don't miss out on these captivating events that promise to leave you inspired and wanting more. </p>
+                    <a href = "events_page1.html">
+                        <button class="events-btn"> Know More </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of Event Section-->
+<center><h1 class="team-h1">OUR TEAM</h1></center>
+<section class="team">
+
+    <div class="fac-co">
+        <h1>Faculty Co-ordinators</h1>
+        <ol>
+            <li>G.Uma Maheswari-HOD-Dept. of AIML</li>
+            <li>M.SWATHI REDDY-Assistant Professor-Dept. of AIML.</li>
+            <li>Y.SHRAVANI-Assistant Professor-Dept. of AIML.</li>
+        </ol>
+
+    </div>
+    <div class="stu-co">
+        <h1>Student Co-ordinators</h1>
+        <ol>
+            <li>G.Yashwin</li>
+            <li>G.Ganesh</li>
+            <li>P.Rishitha</li>
+            <li>G.Shreya</li>
+            <li>G.Sowmya</li>
+            <li>G.Pavan Kumar Reddy</li>
+            <li>G.Saketh Reddy</li>
+            <li>T.Supriya</li>
+            <li>P.Krushitha</li>
+            <li>S.Srihari Reddy</li>
+            
+        </ol>
+    </div>
+</section>
+<section class="contact">
+
+</section>
+<section class="footerrr">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Menu</h4>
+                    <div class="underline"></div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </div>
                 
-                 <!--footer -->
-                 <section class="footerrr">
-                    <footer class="footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="footer-col">
-                                    <h4>Menu</h4>
-                                    <div class="underline"></div>
-                                    <ul class="p-1">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Contribute</a></li>
-                                        <li><a href="#">Team</a></li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="footer-col">
-                                    <h4>News</h4>
-                                    <div class="underline"></div>
-                                    <ul class="p-1">
-                                        <li><a href="#">Trending AI News</a></li>
-                                        <li><a href="#">Careers</a></li>
-                                        <li><a href="#">Innovative</a></li>
-                                        
-                                    </ul>
-                                </div>
-                                <div class="footer-col">
-                                    <h4>Events</h4>
-                                    <div class="underline"></div>
-                                    <ul class="p-1">
-                                        <li><a href="#">Upcoming</a></li>
-                                        <li><a href="#">Ongoing</a></li>
-                                        <li><a href="#">Completed</a></li>
-                
-                                    </ul>
-                                </div>
-                                <div class="footer-col">
-                                    <h4>follow us</h4>
-                                    <div class="underline"></div>
-                                    <div class="social-links">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-google"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                
-                
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
-                 </section>
-      </div>
- </div>
+                <div class="footer-col">
+                    <h4>News</h4>
+                    <div class="underline"></div>
+                    <ul>
+                        <li><a href="#">Trending AI News</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Innovative</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Events</h4>
+                    <div class="underline"></div>
+                    <ul>
+                        <li><a href="#">Upcoming</a></li>
+                        <li><a href="#">Ongoing</a></li>
+                        <li><a href="#">Completed</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="underline"></div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</section>
+    <script src="style.js"></script>
+
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
