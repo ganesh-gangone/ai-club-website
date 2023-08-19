@@ -50,6 +50,13 @@
 
 }
 
+.slide-para-dl {
+    font-size: 30px;
+    color: rgb(19, 17, 17);
+    position: relative;
+    animation: text 2s 1;
+
+}
 .slidedonate {
     background-color: #ea1538;
     padding-left: 30px;
