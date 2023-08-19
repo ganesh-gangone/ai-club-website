@@ -35,7 +35,7 @@
 .slide-corousel {
 
     font-weight: bold;
-    font-size: 60px;
+    font-size: 70px;
     color: white;
     position: relative;
     animation: text 2s 1;
@@ -43,7 +43,7 @@
 }
 
 .slide-para {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     position: relative;
     animation: text 2s 1;
