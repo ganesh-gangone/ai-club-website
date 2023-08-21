@@ -96,15 +96,19 @@ header {
 .home{
     margin-top: 30px;
     background-color: var(--bg-color);
+    width:100%;
+    /*height:100vh;*/
+    
 }
-.imge{
+/*.imge{
     display: flex;
-}
+}*/
 
 .hcon{
     background-image: url("part.jpg");
     height:100vh;
-    width:1540px;
+    /*width:1540px;*/
+    background-size:cover;
     margin-top: 200px;
     padding-left: 75px;
 }
@@ -128,7 +132,8 @@ header {
 }
 
 .news-h1{
-    padding-left:350px;
+    text-align:center;
+    /*padding-left:350px;*/
     padding-bottom: 50px;
     color: #180550;
     font-size:2rem;
@@ -302,14 +307,14 @@ header {
 }
 
 
-/* ---------------------code for Activites cards-----------------------*/
+/* ---------------------code for Activities cards-----------------------*/
 .containerr{
-    width: 100vw;
+    padding-bottom: 120px;
+    /*width: 100vw;*/
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 120px;
     padding-left: 25px;
     
 }
@@ -510,7 +515,13 @@ transition: all 0.3s ease;
 }
 
 
-
+@media(max-width:480px) {
+    .container{
+        width:100px;
+        height:96%;
+    }
+    
+}
 
 @media(max-width: 1280px) {
     header {
