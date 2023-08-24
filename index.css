@@ -46,6 +46,13 @@ header {
     transition: all .50s ease;
 
 }
+.cards-h{
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    color: #180550;
+    margin:20px;
+}
 
 .logo {
     display: flex;
