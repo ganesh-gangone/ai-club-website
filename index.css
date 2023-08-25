@@ -776,3 +776,8 @@ transition: all 0.3s ease;
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 /* End of CSS Ruleset related to Events Page */
+@media screen and (max-width : 411px) {
+    .responsive-div {
+        display: flex;
+        flex-direction: column;
+    }
