@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    background-image:url('newspaper-blur-background.webp');
+    background-size:cover;
+}
+
+.product {
+    position: relative;
+    background-color: #fff;
+    width: 270px;
+    height: 60vh;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 0px 30px;
+    transition: all .5s ease;
+}
+
+.product:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imgg {
+    padding: 0;
+    width: 96%;
+    height: 30vh;
+    margin-left: 5px;
+
+
+}
+
+.namePrice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namePrice h3 {
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #24262b;
+
+}
+
+p {
+    color: #878fa1;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 21px;
+}
+
+.buyy {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.buyy button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #DDC8Af;
+    color: #24262b;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0px 10px;
+}
+
+.buyy button:hover {
+    background: #2a2a2a;
+    color: #DDC8Af;
+}
+
+
+
+.align {
+    margin: 30px;
+}
+
+.space {
+    padding-right: 30px;
+    margin: 20px;
+}
+.navbar {
+    display: flex;
+
+}
+
+.navbar a {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+    margin:  20px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover {
+    color: #7600bc;
+}
+
+.navbar a.active {
+    color: #7600bc;
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    transition: all .50s ease;
+}
+
+.logo span {
+    color: #000;
+    float: left;
+    padding-right:50px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.logo i:hover {
+    transform: scale(1.4);
+}
+
+.logo span:hover {
+    transform: scale(1.1);
+}
+.logo-1{
+    width:50px;
+
+}
+.news-heading{
+    text-align:center;
+    font-size:45px;
+    font-weight:550;
+    color:#575757;
+    padding:5px;
+}
