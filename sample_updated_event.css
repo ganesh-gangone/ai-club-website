@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: lightgrey;
+    background-size: cover;
+    padding: 20px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 500;
+
+}
+
+
+.card {
+    background-color: white;
+}
+
+.para {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.bg-event-container {
+    background-size: cover;
+    background-color: lightgrey !important;
+}
+
+.event-type-container {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.event-type-container:hover {
+    transform: scale(1.1);
+}
+
+.event-type-headings {
+    font-size: 28px;
+}
+
+.event-para {
+    color: #999999;
+}
+
+.event-register-button {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 0.7s ease-in-out;
+}
+
+.event-register-button:hover {
+    transition: 0.7s ease-in-out;
+    background: #4F95DA;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar a {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+    margin:  20px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover {
+    color: #7600bc;
+}
+
+.navbar a.active {
+    color: #7600bc;
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    transition: all .50s ease;
+}
+
+.logo span {
+    color: #000;
+    float: left;
+    padding-right:28px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.logo i:hover {
+    transform: scale(1.4);
+}
+
+.logo span:hover {
+    transform: scale(1.1);
+}
+.logo-1{
+    width:50px;
+
+}
