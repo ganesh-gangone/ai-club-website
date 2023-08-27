@@ -39,6 +39,7 @@
     color: white;
     position: relative;
     animation: text 2s 1;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -47,6 +48,7 @@
     color: white;
     position: relative;
     animation: text 2s 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -274,6 +276,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
     
 
 }
@@ -286,6 +289,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 .cor-block-3 {
@@ -297,6 +301,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 
@@ -309,6 +314,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 .cor-block-5 {
@@ -320,6 +326,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 }
 .cor-block-6 {
     background-image: url(genai.jpg);
@@ -330,6 +337,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 .cor-block-7 {
@@ -341,6 +349,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 .cor-block-8 {
@@ -352,6 +361,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 .cor-block-9 {
@@ -363,6 +373,7 @@
     padding-top: 25vh;
     border-radius: 20px;
     background-position: center;
+    display: flex;
 
 }
 .carousel-inner{
