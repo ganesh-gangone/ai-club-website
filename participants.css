@@ -93,46 +93,6 @@ header {
 .navbar a.active {
     color: #7600bc;
 }
-/*...............navbar responsiveness...............*/
-.navbar{
-    float:right;
-    margin-right:20px;
-}
-.li{
-    line-height: 80px;
-    margin:0 5px;
-}
-.li a{
-    text-transform: uppercase;
-    padding:7px 13px;
-    border-radius:3px;
-}
-
-.checkbtn {
-    float:right;
-    font-size: 30px;
-    color:#000;
-    line-height:80px;
-    margin-right:40px;
-    cursor:pointer;
-    display:none;
-}
-#check{
-    display: none;
-}
-@media (max_width:480){
-    .checkbtn{
-        display:block;
-    }
-    .li a {
-        font-size:16px;
-    }
-}
-@media (max_width:952){
-    .li a{
-        font-size:16px;
-    }
-}
 .home{
     margin-top: 30px;
     background-color: var(--bg-color);
@@ -378,7 +338,7 @@ header {
 }
 .product{
     position: relative;
-    background-color: #fff;
+    background-color: #4a83b6;
     width: 270px;
     height: 60vh;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
@@ -393,28 +353,29 @@ header {
     transform: translateY(-15px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .imgg{
     padding: 0;
     width: 96%;
     height: 30vh;
     margin-left: 5px;
     
-
 }
+
 .namePrice{
-    text-align: center;
     width: 100%;
     display: flex;
     
 }
 .namePrice h3{
-    font-size: 1em;
+    justify-content:center;
+    font-size: 2em;
     text-transform: capitalize;
-    color: #24262b;
+    color: #f4f6f9;
     
-}0
+}
 p{
-    color: #878fa1;
+    color: #cdd3e2;
     font-size: 12px;
     line-height: 25px;
     padding-bottom: 21px;
@@ -427,7 +388,7 @@ p{
 .buyy button{
     padding: 10px 20px;
     border: none;
-    background-color: #68bef4 ;
+    background-color: #f6f8fa ;
     color: #24262b;
     font-size: 13px;
     text-transform: capitalize;
@@ -444,6 +405,8 @@ p{
     color:#232121;
     font-size: 15px;
 }
+/*............details section...........*/
+
 
 /*footer code*/
 .footerrr{
