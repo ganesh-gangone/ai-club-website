@@ -93,6 +93,46 @@ header {
 .navbar a.active {
     color: #7600bc;
 }
+/*...............navbar responsiveness...............*/
+.navbar{
+    float:right;
+    margin-right:20px;
+}
+.li{
+    line-height: 80px;
+    margin:0 5px;
+}
+.li a{
+    text-transform: uppercase;
+    padding:7px 13px;
+    border-radius:3px;
+}
+
+.checkbtn {
+    float:right;
+    font-size: 30px;
+    color:#000;
+    line-height:80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display: none;
+}
+@media (max_width:480){
+    .checkbtn{
+        display:block;
+    }
+    .li a {
+        font-size:16px;
+    }
+}
+@media (max_width:952){
+    .li a{
+        font-size:16px;
+    }
+}
 .home{
     margin-top: 30px;
     background-color: var(--bg-color);
@@ -362,16 +402,17 @@ header {
 
 }
 .namePrice{
+    text-align: center;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    
 }
 .namePrice h3{
     font-size: 1em;
     text-transform: capitalize;
     color: #24262b;
     
-}
+}0
 p{
     color: #878fa1;
     font-size: 12px;
@@ -509,16 +550,21 @@ transition: all 0.3s ease;
 }
 
 .footer-bottom p a{
-    color: #44bae8;
+    color: #de9fc7;
     font-size: 16px;
     text-decoration: none;
 }
 
 
 @media(max-width:480px) {
-    .container{
+    .containerr{
         width:100px;
         height:96%;
+    }
+    .products{
+        width:208px;
+        height:25%;
+        padding:15px;
     }
     
 }
@@ -606,7 +652,6 @@ transition: all 0.3s ease;
     .footer-col{
         width: 100%;
     }
-
     .product{
         width: 330px;
         height: 25%;
@@ -627,6 +672,7 @@ transition: all 0.3s ease;
 .obj{
     color:black;
 }
+
 
 
 
