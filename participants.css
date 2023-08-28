@@ -338,7 +338,7 @@ header {
 }
 .product{
     position: relative;
-    background-color: #fff;
+    background-color: #4a83b6;
     width: 270px;
     height: 60vh;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
@@ -353,27 +353,29 @@ header {
     transform: translateY(-15px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .imgg{
     padding: 0;
     width: 96%;
     height: 30vh;
     margin-left: 5px;
     
-
 }
+
 .namePrice{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    
 }
 .namePrice h3{
-    font-size: 1em;
+    justify-content:center;
+    font-size: 2em;
     text-transform: capitalize;
-    color: #24262b;
+    color: #f4f6f9;
     
 }
 p{
-    color: #878fa1;
+    color: #cdd3e2;
     font-size: 12px;
     line-height: 25px;
     padding-bottom: 21px;
@@ -386,7 +388,7 @@ p{
 .buyy button{
     padding: 10px 20px;
     border: none;
-    background-color: #68bef4 ;
+    background-color: #f6f8fa ;
     color: #24262b;
     font-size: 13px;
     text-transform: capitalize;
@@ -400,9 +402,11 @@ p{
 }
 
 .data{
-    color:#232121;
+    color:#ece7e7;
     font-size: 15px;
 }
+/*............details section...........*/
+
 
 /*footer code*/
 .footerrr{
@@ -509,16 +513,21 @@ transition: all 0.3s ease;
 }
 
 .footer-bottom p a{
-    color: #44bae8;
+    color: #de9fc7;
     font-size: 16px;
     text-decoration: none;
 }
 
 
 @media(max-width:480px) {
-    .container{
+    .containerr{
         width:100px;
         height:96%;
+    }
+    .products{
+        width:208px;
+        height:25%;
+        padding:15px;
     }
     
 }
@@ -606,7 +615,6 @@ transition: all 0.3s ease;
     .footer-col{
         width: 100%;
     }
-
     .product{
         width: 330px;
         height: 25%;
@@ -627,6 +635,7 @@ transition: all 0.3s ease;
 .obj{
     color:black;
 }
+
 
 
 
