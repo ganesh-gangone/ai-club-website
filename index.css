@@ -634,17 +634,17 @@ transition: all 0.3s ease;
 
 /* start of Events CSS */
 
-#heading {
+#EventPage {
     width: 100%;
     height: 80vh;
     background:white;
   }
   
-  #heading.container {
+  #EventPage.container {
     padding-top: 72px;
   }
   
-  #heading h1 {
+  #EventPage h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 500;
@@ -682,7 +682,7 @@ transition: all 0.3s ease;
   
   
   @media (max-width: 991px) {
-    #heading {
+    #EventPage {
       height: 100vh;
       text-align: center;
     }
