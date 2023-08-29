@@ -105,11 +105,10 @@ header {
 }*/
 
 .hcon{
-    background-image: url("part.jpg");
+    background-image: url("participantspic.jpeg");
     height:100vh;
     /*width:1540px;*/
     background-size:cover;
-    margin-top: 200px;
     padding-left: 75px;
 }
 .hcon h1{
@@ -135,7 +134,7 @@ header {
     text-align:center;
     /*padding-left:350px;*/
     padding-bottom: 50px;
-    color: #180550;
+    color: #5b4996;
     font-size:2rem;
     margin:20px;
 }
@@ -372,8 +371,12 @@ header {
     justify-content:center;
     font-size: 1.5em;
     text-transform: capitalize;
-    color: #f4f6f9;
+    color: #460365;
     
+}
+.topic{
+    color:#7600bc;
+    font-style: underline;
 }
 p{
     color: #cdd3e2;
@@ -390,7 +393,7 @@ p{
     padding: 10px 20px;
     border: none;
     background-color: #f6f8fa ;
-    color: #24262b;
+    color: #51106e;
     font-size: 13px;
     text-transform: capitalize;
     cursor: pointer;
@@ -398,8 +401,8 @@ p{
     border-radius: 0px 10px;
 }
 .buyy button:hover{
-    background: #2a2a2a;
-    color:#DDC8Af;
+    background: #d868f7;
+    color:#fffefd;
 }
 
 .data{
