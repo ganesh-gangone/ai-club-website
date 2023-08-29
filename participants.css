@@ -376,7 +376,8 @@ header {
 }
 .topic{
     color:#7600bc;
-    font-style: underline;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 p{
     color: #cdd3e2;
