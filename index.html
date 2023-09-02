@@ -25,35 +25,47 @@
 </head>
 
 <body>
-    <header class="box">
-        <img src="logo.png" alt="" class="logo-1">
-        <a href="#" class="logo"><span>AI CLUB</span></a>
-        <ul class="navbar">
-            <li><a class="li" href="index.html">Home</a></li>
-            <li><a class="li" href="news.html">News</a></li>
-            <li><a class="li" href="#EventPage">Events</a></li>
-            <li><a class="li" href="participants.html">Participants</a></li>
-            <li><a class="li" href="#team">Team</a></li>
-            <li><a class="li" href="#featured">Contact Us</a></li>
-            <li><a class="li" href="#award">Contribute</a></li>
+    <!--Responsive Header-->
+    <nav>
+        <input type="checkbox" id="nav-toggle">
+        <div class="logo">
+            <img src = "logo.png" class = "logo-img mr-auto"/><span class = "logo-span">AI CLUB</span></div>
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">News</a></li>
+          <li><a href="#work">Events</a></li>
+          <li><a href="#projects">Participants</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
-    
-    </header>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+    </nav>
+    <!--End of Header Section-->
+
+        
     <section class="home" id="index.html">
-     <div class="imge">
-        <div class="hcon">
-            <h1>ARTIFICIAL INTELLIGENCE</h1>
-            <p>Artificial intelligence (AI) is a rapidly growing field with the potential to revolutionize many industries. 
-            I have worked on a variety of AI projects, including building a machine learning model that can predict the risk of heart disease,  
-            developing a chatbot that can answer customer questions about a product,
-            and creating a virtual assistant that can help users with tasks such as scheduling appointments and making travel arrangements.</p>
-            <button class="explore">
-                Explore Now
-            </button>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class="imge">
+                    <div class="hcon">
+                    <h1>ARTIFICIAL INTELLIGENCE</h1>
+                    <p>Artificial intelligence (AI) is a rapidly growing field with the potential to revolutionize many industries. 
+                        I have worked on a variety of AI projects, including building a machine learning model that can predict the risk of heart disease,  
+                        developing a chatbot that can answer customer questions about a product,
+                        and creating a virtual assistant that can help users with tasks such as scheduling appointments and making travel arrangements.</p>
+                    <button class="explore">
+                        Explore Now
+                    </button>
+                    </div>
+                    <div><img src="img.jpg" alt="" class="img-1"></div>
+                </div>
+            </div>
         </div>
-        <div><img src="img.jpg" alt="" class="img-1"></div>
-    </div>
-</section>
+    </section>
 
 <!--Home page cards section-->
  <section class="news" id="newss">
