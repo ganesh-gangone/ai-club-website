@@ -4,6 +4,7 @@
 .bg-event-container {
     background-size: cover;
     background-color: lightgrey !important;
+    padding:50px;
 }
 
 .event-type-container {
