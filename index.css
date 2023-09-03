@@ -19,14 +19,7 @@
     background: #2a2a2a;
     color: #DDC8AF;
 }
-body {
-    min-height: 100vh;
-   overflow-x:hidden;
-    color: var(--text-color);
-    width: 100%;
-    display: grid;
-    place-items: center;
-}
+
 
 /* Header Section CSS */
 body {
@@ -168,7 +161,7 @@ body {
     width: 70px;
   }
   .logo-span {
-    margin-left: 20px;
+    margin-right: 350px;
   }
 
 
@@ -216,6 +209,31 @@ body {
   /* End of Header Section CSS */
 
 
+  /* Hero Section CSS */
+  .hero-section {
+    background-color: #D9D9D9;
+    margin-top: 100px;
+    padding-left: 5%;
+  }
+.hero-section-img {
+    width: 270px;
+  }
+.hero-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+.hero-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+
+  /* End of Hero Section CSS */
+
+
+
   
 .cards-h{
     text-align: center;
@@ -225,39 +243,6 @@ body {
     margin:20px;
 }
 
-.home{
-    margin-top: 30px;
-    background-color: var(--bg-color);
-}
-.imge{
-    display: flex;
-}
-.img-1{
-    margin-top: 60px;
-    width: 40vw;
-    margin-right: 50px;
-    height: 80vh;
-    border-radius: 800px ;
-    -webkit-border-radius: 800px ;
-    -moz-border-radius: 800px ;
-    -ms-border-radius: 800px ;
-    -o-border-radius: 800px ;
-}
-.hcon{
-    margin-top: 200px;
-    padding-left: 75px;
-}
-.hcon h1{
-    font-size:3rem;
-    padding-left:50px;
-    color: #000;
-}
-.hcon p{
-    font-size: .8rem;
-    color: #24262b;
-    line-height: 2.5;
-    padding: 20px;
-}
 .explore{
     border: none;
     margin-left: 18px;
