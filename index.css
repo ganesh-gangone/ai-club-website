@@ -136,19 +136,6 @@
     font-weight: bold;
 }
 
-.main {
-    display: flex;
-    align-items: center;
-}
-
-.main a {
-    margin-left: 20px;
-    color: #000;
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: all .50s ease;
-}
-
 .user {
     display: flex;
     align-items: center;
@@ -158,11 +145,6 @@
     color: #000;
     font-size: 28px;
     margin-right: 7px;
-}
-
-.main a:hover {
-    color: #7600bc;
-    transform: scale(1.2);
 }
 
 #menu-icon {
@@ -311,75 +293,7 @@
     color: #24262b;
     padding-top: 100px;
 }
-.products{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-.product{
-    position: relative;
-    background-color: #fff;
-    width: 270px;
-    height: 60vh;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 20px 40px;
-    border-radius: 0px 30px;
-    transition: all .5s ease;
-}
-.product:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-.imgg{
-    padding: 0;
-    width: 96%;
-    height: 30vh;
-    margin-left: 5px;
-    
 
-}
-.namePrice{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.namePrice h3{
-    font-size: 1em;
-    text-transform: capitalize;
-    color: #24262b;
-    
-}
-p{
-    color: #878fa1;
-    font-size: 12px;
-    line-height: 25px;
-    padding-bottom: 21px;
-}
-.buyy{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-.buyy button{
-    padding: 10px 20px;
-    border: none;
-    background-color: #DDC8Af ;
-    color: #24262b;
-    font-size: 13px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-    border-radius: 0px 10px;
-}
-.buyy button:hover{
-    background: #2a2a2a;
-    color:#DDC8Af;
-}
 
 
 
@@ -493,19 +407,6 @@ transition: all 0.3s ease;
     text-decoration: none;
 }
 
-
-@media(max-width: 1250px){
-    .product{
-        width: 208px;
-        height: 96%;
-    }
-}
-@media(max-width: 1190px){
-    .product{
-        width: 207px;
-    }
-}
-
 @media(max-width: 1090px) {
     #menu-icon {
         display: block;
@@ -522,11 +423,6 @@ transition: all 0.3s ease;
 @media(max-width : 560px){
     .footer-col{
         width: 100%;
-    }
-
-    .product{
-        width: 330px;
-        height: 25%;
     }
     .containerr{
         margin-top: 600px;
@@ -643,4 +539,105 @@ transition: all 0.3s ease;
   /* end of Events CSS */
 
 
-  
+/* News Section */
+.main {
+    background-color:white;
+    background-size:cover;
+}
+
+.product {
+    position: relative;
+    background-color: #fff;
+    width: 270px;
+    height: 60vh;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 0px 30px;
+    transition: all .5s ease;
+}
+
+.product:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imgg {
+    padding: 0;
+    width: 96%;
+    height: 30vh;
+    margin-left: 5px;
+
+
+}
+
+.namePrice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namePrice h3 {
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #24262b;
+
+}
+
+p {
+    color: #878fa1;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 21px;
+}
+
+.buyy {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.buyy button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #DDC8Af;
+    color: #24262b;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0px 10px;
+}
+
+.buyy button:hover {
+    background: #2a2a2a;
+    color: #DDC8Af;
+}
+
+.card-align {
+    margin-left: 500px;
+}
+
+.align {
+    margin: 30px;
+}
+
+.space {
+    padding-right: 30px;
+    margin: 20px;
+}
+
+.news-heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+
+/* End of News Section */
