@@ -32,24 +32,29 @@
 
 <body>
     <!--Responsive Header-->
-    <nav>
-        <input type="checkbox" id="nav-toggle">
-        <div class="logo">
-            <img src = "logo.png" class = "logo-img mr-auto"/><span class = "logo-span">AI CLUB</span></div>
-        <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="#EventPage">Events</a></li>
-          <li><a href="participants.html">Participants</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-        <label for="nav-toggle" class="icon-burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </label>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="" class="logo-1">
+          <a href="index.html" class="logo"><span>AI CLUB</span></a>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+              <a class="nav-link" href="index.html">
+                  Home
+              </a>
+              <a class="nav-link" href="news.html">News</a>
+              <a class="nav-link" href="#EventPage">Events</a>
+              <a class="nav-link" href="participants.html">Participants</a>
+              <a class="nav-link" href="index.html#team">Team</a>
+              <a class="nav-link" href="#">Contact Us</a>
+        </div>
+      </div>
+  </div>
+  </nav>
     <!--End of Header Section-->
 
         

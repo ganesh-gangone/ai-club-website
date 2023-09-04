@@ -22,190 +22,53 @@
 
 
 /* Header Section CSS */
-body {
-    padding: 0;
-    margin: 0;
-  }
-  .container {
-    position: relative;
-    margin-top: 100px;
-  }
-  .container img {
-    display: block;
-    width: 100%;
-  }
-  nav {
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 0;
-    font-family: "Montserrat", "sans-serif";
-    height: 100px;
-    background-color: white;
-    padding: 0 5%;
-  }
-  nav .logo {
-    float: left;
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    color: black;
-  }
-  nav .links {
-    float: right;
-    padding: 0;
-    margin: 0;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  nav .links li {
-    list-style: none;
-  }
-  nav .links a {
-    display: block;
-    padding: 1em;
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    position: relative;
-  }
-  nav .links a:hover {
-    color: black;
-  }
-  nav .links a::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: rgb(182, 107, 182);
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
-  }
-  nav .links a:hover::before {
-    visibility: visible;
-    transform: scaleX(1);
-    color: black;
-  }
-  #nav-toggle {
-    position: absolute;
-    top: -100px;
-  }
-  nav .icon-burger {
-    display: none;
-    position: absolute;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  nav .icon-burger .line {
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    margin: 5px;
-    border-radius: 3px;
-    transition: all 0.5s ease-in-out;
-  }
-  @media screen and (max-width: 768px) {
-    nav .logo {
-      float: none;
-      width: auto;
-      justify-content: center;
-    }
-    nav .links {
-      float: none;
-      position: fixed;
-      z-index: 9;
-      left: 0;
-      right: 0;
-      top: 100px;
-      bottom: 100%;
-      width: auto;
-      height: auto;
-      flex-direction: column;
-      justify-content: space-evenly;
-      background-color: rgba(0, 0, 0, 0.8);
-      overflow: hidden;
-      transition: all 0.5s ease-in-out;
-    }
-    nav .links a {
-      font-size: 20px;
-    }
-    nav :checked ~ .links {
-      bottom: 0;
-    }
-    nav .icon-burger {
-      display: block;
-    }
-    nav :checked ~ .icon-burger .line:nth-child(1) {
-      transform: translateY(10px) rotate(225deg);
-    }
-    nav :checked ~ .icon-burger .line:nth-child(3) {
-      transform: translateY(-10px) rotate(-225deg);
-    }
-    nav :checked ~ .icon-burger .line:nth-child(2) {
-      opacity: 0;
-    }
-  }
-  .logo-img {
-    height: 70px;
-    width: 70px;
-  }
-  .logo-span {
-    margin-right: 350px;
-  }
+.navbar {
+  display: flex;
+  position: fixed;
+}
 
+.navbar a {
+  color: #7600bc;
+  font-size: 1.1rem;
+  font-weight: 500; 
+  margin:  20px;
+  transition: all .50s ease;
+}
 
-  @media screen and (max-width: 768px) {
-    nav .logo {
-      float: none;
-      width: auto;
-      justify-content: center;
-    }
-    nav .links {
-      float: none;
-      position: fixed;
-      z-index: 9;
-      left: 0;
-      right: 0;
-      top: 100px;
-      bottom: 100%;
-      width: auto;
-      height: auto;
-      flex-direction: column;
+.nav-link :hover {
+  color: #7600bc;
+}
 
-      background-color: white;
-      overflow: hidden;
-      transition: all 0.5s ease-in-out;
-    }
-    nav .links a {
-      font-size: 20px;
-    }
-    nav :checked ~ .links {
-      bottom: 0;
-    }
-    nav .icon-burger {
-      display: block;
-    }
-    nav :checked ~ .icon-burger .line:nth-child(1) {
-      transform: translateY(10px) rotate(225deg);
-    }
-    nav :checked ~ .icon-burger .line:nth-child(3) {
-      transform: translateY(-10px) rotate(-225deg);
-    }
-    nav :checked ~ .icon-burger .line:nth-child(2) {
-      opacity: 0;
-    }
-  }
+.nav-link .active {
+  color: #7600bc;
+}
+
+.logo {
+  display: flex;
+  align-items: left;
+  transition: all .50s ease;
+}
+
+.logo span {
+  color: #000;
+  float: left;
+  padding-right:28px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all .50s ease;
+}
+
+.logo i:hover {
+  transform: scale(1.4);
+}
+
+.logo span:hover {
+  transform: scale(1.1);
+}
+.logo-1{
+  width:50px;
+
+}
   /* End of Header Section CSS */
 
 
