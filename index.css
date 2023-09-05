@@ -286,10 +286,10 @@ header {
 }*/
 #hero .contentbox a:hover{
     background: #2a2a2a;
-    color:#DDC8Af;
+    color:#f1cb9d;
 }
 .newp{
-    color: #24262b;
+    color: #505152;
 }
 #para{
     padding: 50px;
@@ -395,7 +395,7 @@ p{
 .buyy button{
     padding: 10px 20px;
     border: none;
-    background-color: #DDC8Af ;
+    background-color: #a7b1d2 ;
     color: #24262b;
     font-size: 13px;
     text-transform: capitalize;
@@ -405,7 +405,9 @@ p{
 }
 .buyy button:hover{
     background: #2a2a2a;
-    color:#DDC8Af;
+    background-color:
+    background-color: #a7b1d2 ;
+    color:#8b96bb;
 }
 
 
