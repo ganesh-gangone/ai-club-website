@@ -51,3 +51,9 @@
     margin:15px;
     background-color: #cbd6e9;
   }
+
+  .team-container {
+    margin:20px;
+    flex: auto;
+    flex-direction: row;
+  }
