@@ -28,7 +28,7 @@
 }
 
 .navbar a {
-  color: #7600bc;
+  color: #7fb9e0;
   font-size: 1.1rem;
   font-weight: 500; 
   margin:  20px;
@@ -36,11 +36,11 @@
 }
 
 .nav-link :hover {
-  color: #7600bc;
+  color: #7cd9eb;
 }
 
 .nav-link .active {
-  color: #7600bc;
+  color: #72e3eb;
 }
 
 .logo {
@@ -294,6 +294,47 @@
     padding-top: 100px;
 }
 
+<<<<<<< HEAD
+}
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.namePrice h3{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #24262b;
+    
+}
+p{
+    color: #878fa1;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 21px;
+}
+.buyy{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.buyy button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #DDC8Af ;
+    color: #24262b;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0px 10px;
+}
+.buyy button:hover{
+    background: #2a2a2a;
+    color:#DDC8Af;
+}
+=======
+>>>>>>> 8c4863deeed77986274138362b0329808e6e1fc9
 
 
 
