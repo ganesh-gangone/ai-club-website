@@ -28,7 +28,7 @@
 }
 
 .navbar a {
-  color: #7600bc;
+  color: #7fb9e0;
   font-size: 1.1rem;
   font-weight: 500; 
   margin:  20px;
@@ -36,11 +36,11 @@
 }
 
 .nav-link :hover {
-  color: #7600bc;
+  color: #7cd9eb;
 }
 
 .nav-link .active {
-  color: #7600bc;
+  color: #72e3eb;
 }
 
 .logo {
