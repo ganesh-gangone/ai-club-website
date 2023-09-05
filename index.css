@@ -96,16 +96,6 @@
   /* End of Hero Section CSS */
 
 
-
-  
-.cards-h{
-    text-align: center;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    color: #180550;
-    margin:20px;
-}
-
 .explore{
     border: none;
     margin-left: 18px;
@@ -124,28 +114,7 @@
     background-color:black;
     color:white;
 }
-.news{
-    margin: 50px;
-}
 
-.news-h1{
-    padding-left: 550px;
-    padding-bottom: 50px;
-    color: #000;
-    font-size:2rem;
-    font-weight: bold;
-}
-
-.user {
-    display: flex;
-    align-items: center;
-}
-
-.user i {
-    color: #000;
-    font-size: 28px;
-    margin-right: 7px;
-}
 
 #menu-icon {
     font-size: 35px;
@@ -294,8 +263,6 @@
     padding-top: 100px;
 }
 
-<<<<<<< HEAD
-}
 .namePrice{
     width: 100%;
     display: flex;
@@ -333,8 +300,6 @@ p{
     background: #2a2a2a;
     color:#DDC8Af;
 }
-=======
->>>>>>> 8c4863deeed77986274138362b0329808e6e1fc9
 
 
 
