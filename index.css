@@ -466,10 +466,10 @@ transition: all 0.3s ease;
     
   }
   
-  p {
+  #EventPage p {
     color: #6c6b70;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     text-align: center;
   }
