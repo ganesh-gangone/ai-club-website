@@ -90,16 +90,8 @@ header {
     color: #7600bc;
 }
 
-<<<<<<< Updated upstream
 .navbar a.active {
     color: #7600bc;
-=======
-.span {
-    color: #edb5b5;
-    font-size: 36px;
-    font-family: "Roboto";
-    font-weight: bold;
->>>>>>> Stashed changes
 }
 .home{
     margin-top: 30px;

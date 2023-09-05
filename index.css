@@ -241,10 +241,10 @@
 }*/
 #hero .contentbox a:hover{
     background: #2a2a2a;
-    color:#f1cb9d;
+    color:#DDC8Af;
 }
 .newp{
-    color: #505152;
+    color: #24262b;
 }
 #para{
     padding: 50px;
@@ -321,7 +321,7 @@ p{
 .buyy button{
     padding: 10px 20px;
     border: none;
-    background-color: #a7b1d2 ;
+    background-color: #DDC8Af ;
     color: #24262b;
     font-size: 13px;
     text-transform: capitalize;
@@ -331,9 +331,7 @@ p{
 }
 .buyy button:hover{
     background: #2a2a2a;
-    background-color:
-    background-color: #a7b1d2 ;
-    color:#8b96bb;
+    color:#DDC8Af;
 }
 =======
 >>>>>>> 8c4863deeed77986274138362b0329808e6e1fc9
