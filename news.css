@@ -55,12 +55,13 @@ p {
 
 .buyy {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 20px;
 }
 
 .buyy button {
     padding: 10px 20px;
+    margin-top: 15px;
     border: none;
     background-color: #DDC8Af;
     color: #24262b;

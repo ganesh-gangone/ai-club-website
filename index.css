@@ -96,16 +96,6 @@
   /* End of Hero Section CSS */
 
 
-
-  
-.cards-h{
-    text-align: center;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    color: #180550;
-    margin:20px;
-}
-
 .explore{
     border: none;
     margin-left: 18px;
@@ -124,28 +114,7 @@
     background-color:black;
     color:white;
 }
-.news{
-    margin: 50px;
-}
 
-.news-h1{
-    padding-left: 550px;
-    padding-bottom: 50px;
-    color: #000;
-    font-size:2rem;
-    font-weight: bold;
-}
-
-.user {
-    display: flex;
-    align-items: center;
-}
-
-.user i {
-    color: #000;
-    font-size: 28px;
-    margin-right: 7px;
-}
 
 #menu-icon {
     font-size: 35px;
@@ -503,10 +472,10 @@ transition: all 0.3s ease;
     
   }
   
-  p {
+  #EventPage p {
     color: #6c6b70;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     text-align: center;
   }
