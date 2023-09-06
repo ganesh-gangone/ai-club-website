@@ -263,43 +263,6 @@
     padding-top: 100px;
 }
 
-.namePrice{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.namePrice h3{
-    font-size: 1em;
-    text-transform: capitalize;
-    color: #24262b;
-    
-}
-p{
-    color: #878fa1;
-    font-size: 12px;
-    line-height: 25px;
-    padding-bottom: 21px;
-}
-.buyy{
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-}
-.buyy button{
-    padding: 10px 20px;
-    border: none;
-    background-color: #DDC8Af ;
-    color: #24262b;
-    font-size: 13px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-    border-radius: 0px 10px;
-}
-.buyy button:hover{
-    background: #2a2a2a;
-    color:#DDC8Af;
-}
 
 
 
