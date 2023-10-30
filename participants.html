@@ -12,12 +12,20 @@
     <link rel="stylesheet" href="participants.css">
     
     
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+        
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
     <style>
         /* Apply cursor style directly to an element */
@@ -32,26 +40,38 @@
 
 <body>
     
-    <header class="box">
+   <!--Responsive Header-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">
         <img src="logo.png" alt="" class="logo-1">
-        <a href="#" class="logo"><span>AI CLUB</span></a>
-        <ul class="navbar">
-            <li><a class="li" href="index.html">Home</a></li>
-            <li><a class="li" href="news.html">News</a></li>
-            <li><a class="li" href="sample_updated_event.html">Events</a></li>
-            <li><a class="li" href="participants.html">Participants</a></li>
-            <li><a class="li" href="#award">Team</a></li>
-            <li><a class="li" href="#contact">Contact Us</a></li>
-        </ul>
-    </header>
-
+        <a href="index.html" class="logo"><span>AI CLUB</span></a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="index.html">
+                Home
+            </a>
+            <a class="nav-link" href="news.html">News</a>
+            <a class="nav-link" href="#EventPage">Events</a>
+            <a class="nav-link" href="participants.html">Participants</a>
+            <a class="nav-link" href="index.html#team">Team</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
+      </div>
+    </div>
+</div>
+</nav>
+  <!--End of Header Section-->
 
     <section class="home">
  
       <div class="imge ">
         <div class="hcon">
-            <h1>BECOME A PART OF OUR TEAM</h1>
-            <p>Lets join together and run a better future</p>
+            <h1 class="banner-heading">BECOME A PART OF OUR TEAM</h1>
+            <p class="banner-tagline">Lets join together and run a better future</p>
             
         </div>
         
@@ -59,7 +79,7 @@
 </section>
  <section class="news" id="newss">
     <div class="news-h1">
-        <h1>PARTICIPANTS-PROJECTS</h1>
+        <h1 class="heading">PARTICIPANTS-PROJECTS</h1>
     </div>
     <div class="containerr">
         <div class="products">
@@ -77,7 +97,7 @@
                     </p>
                     
                 <div class="buyy">
-                    <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsModal">Know More</button>
+                    <button type="button" class="button" data-toggle="modal" data-target="#laptopsModal">Know More</button>
                 </div>
             </div>
             <div class="product">
@@ -97,7 +117,7 @@
                     face recognition to ensure that only authorized users can
                     access it.</p>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
@@ -112,7 +132,7 @@
 
                 <p>This is the chatgpt which is done for the complex questions. This software is done by me to solve all the complex problems and i have created a seperate interface for the chatgpt.Here  2 codes are needed for generation of chatgpt..</p>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
@@ -127,7 +147,7 @@
 
                 <p>This is the chatgpt which is done for the complex questions. This software is done by me to solve all the complex problems and i have created a seperate interface for the chatgpt.Here  2 codes are needed for generation of chatgpt.</p>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
         </div>
@@ -146,7 +166,7 @@
 
             <p>A Pomodoro clock is a time management technique that involves working for a set amount of time (usually 25 minutes) and then taking a short break. To create a Pomodoro clock using C programming, we will need to use libraries like `<stdio.h>` and `<time.h>` to manage time intervals and user input. </p>
             <div class="buyy">
-                <button>Know More</button>
+                <button class="button">Know More</button>
             </div>
         </div>
         <div class="product">
@@ -161,7 +181,7 @@
 
             <p>The player controls a long, thin creature, resembling a snake, which roams around on a bordered plane, picking up food (or some other item), trying to avoid hitting its own tail or the edges of the playing area. Each time the snake eats a piece of food, its tail grows longer, making the game increasingly difficult.</p>
             <div class="buyy">
-                <button>Know More</button>
+                <button class="button">Know More</button>
             </div>
         </div>
 
@@ -177,7 +197,7 @@
 
             <p>The Main Objective of the AI Virtual Mouse System is to control the mouse cursor functions by using hand gestures instead of using a physical mouse. The Mouse is one of the Wonderful Inventions of Human-Computer Technology. Using only a camera, the Virtual Mouse provides an infrastructure between the user and the machine. </p>
             <div class="buyy">
-                <button>Know More</button>
+                <button class="button">Know More</button>
             </div>
         </div>
         <div class="product">
@@ -192,19 +212,19 @@
 
             <p>The Main Objective of the AI Virtual Mouse System is to control the mouse cursor functions by using hand gestures instead of using a physical mouse. The Mouse is one of the Wonderful Inventions of Human-Computer Technology. Using only a camera, the Virtual Mouse provides an infrastructure between the user and the machine. </p>
             <div class="buyy">
-                <button>Know More</button>
+                <button class="button">Know More</button>
             </div>
         </div>
     </div>
     </div>
     <div class="news-h1">
-        <h1>POSTER PRESENTATIONS</h1>
+        <h1 class="heading">POSTER PRESENTATIONS</h1>
     </div>
     <div class="containerr">
     <div class="products">
         <div class="product">
             <div class="imagee">
-                <img src="aiastronomy.jpeg" alt="" class="imgg">
+                <img src="aiastronomy.jpeg" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name"> SHREYA</h3>
@@ -216,7 +236,7 @@
         </div>
         <div class="product">
             <div class="imagee">
-                <img src="aiai.jpeg" alt="" class="imgg">
+                <img src="aiai.jpeg" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name">AHMADI</h3>
@@ -229,7 +249,7 @@
         </div>
         <div class="product">
             <div class="imagee">
-                <img src="astronomy.png" alt="" class="imgg">
+                <img src="astronomy.png" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name">RAKESH</h3>
@@ -242,7 +262,7 @@
         </div>
         <div class="product">
             <div class="imagee">
-                <img src="aiastronomy.jpeg" alt="" class="imgg">
+                <img src="aiastronomy.jpeg" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name">AKSHAYA</h3>
@@ -259,7 +279,7 @@
     <div class="products">
         <div class="product">
             <div class="imagee">
-                <img src="aiai.jpeg  " alt="" class="imgg">
+                <img src="aiai.jpeg  " alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name"> THRISHA MAHI</h3>
@@ -272,7 +292,7 @@
         </div>
         <div class="product">
             <div class="imagee">
-                <img src="astronomy.png" alt="" class="imgg">
+                <img src="astronomy.png" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name">RAHUL
@@ -286,7 +306,7 @@
         </div>
         <div class="product">
             <div class="imagee">
-                <img src="aigaming.jpg" alt="" class="imgg">
+                <img src="aigaming.jpg" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name">M.Siri Varshini</h3>
@@ -299,7 +319,7 @@
         </div>
         <div class="product">
             <div class="imagee">
-                <img src="airobotics.jpeg" alt="" class="imgg">
+                <img src="airobotics.jpeg" alt="" class="imggg">
             </div>
             <div class="namePrice">
                 <h3 class="name">V.BHARGAVI</h3>
@@ -316,7 +336,7 @@
         <div class="products">
             <div class="product">
                 <div class="imagee">
-                    <img src="socialmedia.jpg" alt="" class="imgg">
+                    <img src="socialmedia.jpg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">BHANU SHREE</h3>
@@ -329,7 +349,7 @@
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="finance.jpg" alt="" class="imgg">
+                    <img src="finance.jpg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name"> HIMA BINDU</h3>
@@ -342,7 +362,7 @@
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="aigaming.jpg" alt="" class="imgg">
+                    <img src="aigaming.jpg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">M.SHARANYA</h3>
@@ -355,7 +375,7 @@
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="airobotics.jpeg" alt="" class="imgg">
+                    <img src="airobotics.jpeg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">MAGDELINA ALBERT</h3>
@@ -372,7 +392,7 @@
         <div class="products">
             <div class="product">
                 <div class="imagee">
-                    <img src="socialmedia.jpg" alt="" class="imgg">
+                    <img src="socialmedia.jpg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">DIVYA</h3>
@@ -385,7 +405,7 @@
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="finance.jpg" alt="" class="imgg">
+                    <img src="finance.jpg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">BHAGYA LAKSHMI</h3>
@@ -398,7 +418,7 @@
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="aiposter.png" alt="" class="imgg">
+                    <img src="aiposter.png" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">MANICHANDHAN </h3>
@@ -411,7 +431,7 @@
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="digitalimg.jpeg" alt="" class="imgg">
+                    <img src="digitalimg.jpeg" alt="" class="imggg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">SUPRIYA</h3>
@@ -425,13 +445,13 @@
         </div>
     </div>
     <div class="news-h1">
-        <h1>PPT PRESENTATIONS</h1>
+        <h1 class="heading">PPT PRESENTATIONS</h1>
     </div>
     <div class="containerr">
         <div class="products">
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">NAYNIKA & SANJANA</h3>
@@ -442,12 +462,12 @@
                 </ul>
                 
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg"alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">CHAKRITHA & HANVIKA</h3>
@@ -457,12 +477,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name"> RUCHITHA & AKSHITHA</h3>
@@ -472,12 +492,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">SHIVA PRIYA & MEGHANA</h3>
@@ -487,7 +507,7 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
         </div>
@@ -496,7 +516,7 @@
         <div class="products">
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">A.SRINIVAS</h3>
@@ -506,12 +526,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">SAI NANDHAN KRISHNA</h3>
@@ -521,12 +541,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name" >ABHISHEK & VINAY</h3>
@@ -536,12 +556,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">HITESHWAR & VARSHA</h3>
@@ -553,7 +573,7 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
         </div>
@@ -562,7 +582,7 @@
         <div class="products">
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg"alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">CHARAN & SAI</h3>
@@ -573,12 +593,12 @@
                 </ul>
                 
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg"alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">SAMHITHA & PRANAVI</h3>
@@ -588,12 +608,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">C.LAVANYA & G.LAVANYA</h3>
@@ -603,12 +623,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">V.PRANEETH & M.AJAY</h3>
@@ -618,7 +638,7 @@
                     <li>YEAR/BRANCH: 1st year/AIML-B</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
         </div>
@@ -627,7 +647,7 @@
         <div class="products">
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">SRINIKETH & PRASANNA</h3>
@@ -638,12 +658,12 @@
                 </ul>
                 
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">KANISHKITHA & V.CHARISHNA</h3>
@@ -653,12 +673,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-B</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">K.VAISHNAVI</h3>
@@ -668,12 +688,12 @@
                     <li>YEAR/BRANCH: 1st year/AIML-A</li>
                 </ul>
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             <div class="product">
                 <div class="imagee">
-                    <img src="pptpic.png.crdownload" alt="" class="imgg">
+                    <img src="pptimage.jpeg" alt="" class="imgg">
                 </div>
                 <div class="namePrice">
                     <h3 class="name">SANA</h3>
@@ -684,7 +704,7 @@
                 </ul>
     
                 <div class="buyy">
-                    <button>Know More</button>
+                    <button class="button">Know More</button>
                 </div>
             </div>
             </div>
@@ -693,7 +713,7 @@
                 <div class="products">
                     <div class="product">
                         <div class="imagee">
-                            <img src="pptpic.png.crdownload" alt="" class="imgg">
+                            <img src="pptimage.jpeg" alt="" class="imgg">
                         </div>
                         <div class="namePrice">
                             <h3 class="name">VAMSHI</h3>
@@ -704,12 +724,12 @@
                         </ul>
                         
                         <div class="buyy">
-                            <button>Know More</button>
+                            <button class="button">Know More</button>
                         </div>
                     </div>
                     <div class="product">
                         <div class="imagee">
-                            <img src="pptpic.png.crdownload" alt="" class="imgg">
+                            <img src="pptimage.jpeg" alt="" class="imgg">
                         </div>
                         <div class="namePrice">
                             <h3 class="name">MADHURIMA</h3>
@@ -719,12 +739,12 @@
                             <li>YEAR/BRANCH: 2nd year/AIML</li>
                         </ul>
                         <div class="buyy">
-                            <button>Know More</button>
+                            <button class="button">Know More</button>
                         </div>
                     </div>
                     <div class="product">
                         <div class="imagee">
-                            <img src="pptpic.png.crdownload" alt="" class="imgg">
+                            <img src="pptimage.jpeg" alt="" class="imgg">
                         </div>
                         <div class="namePrice">
                             <h3 class="name">VENKAT</h3>
@@ -734,12 +754,12 @@
                             <li>YEAR/BRANCH: 2nd year/AIML</li>
                         </ul>
                         <div class="buyy">
-                            <button>Know More</button>
+                            <button class="button">Know More</button>
                         </div>
                     </div>
                     <div class="product">
                         <div class="imagee">
-                            <img src="pptpic.png.crdownload" alt="" class="imgg">
+                            <img src="pptimage.jpeg" alt="" class="imgg">
                         </div>
                         <div class="namePrice">
                             <h3 class="name">SAKETH & GOPIKRISHNA</h3>
@@ -749,7 +769,7 @@
                             <li>YEAR/BRANCH: 3rd year/AIML</li>
                         </ul>
                         <div class="buyy">
-                            <button>Know More</button>
+                            <button class="button">Know More</button>
                         </div>
                     </div>
                     </div>
@@ -760,7 +780,7 @@
 
 <section class="footerrr">
     <footer class="footer">
-        <div class="container">
+        
             <div class="row">
                 <div class="footer-col">
                     <h4>Menu</h4>
@@ -808,7 +828,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
 
     </footer>
 </section>
