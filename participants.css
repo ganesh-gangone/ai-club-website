@@ -7,7 +7,7 @@
   }
   
   .navbar a {
-    color: #7fb9e0;
+    color: #71bdf0;
     font-size: 1.1rem;
     font-weight: 500; 
     margin:  20px;
@@ -15,7 +15,7 @@
   }
   
   .nav-link :hover {
-    color: #7cd9eb;
+    color: #6c0d89;
   }
   
   .nav-link .active {
@@ -79,6 +79,7 @@
 /* end */
 /*cards*/
 .heading{
+    padding:10px;
     color: #5b4996;
     font-size: 2rem;
     text-align:center;
@@ -92,6 +93,7 @@
     display:flex;
     flex-direction:row;
     align-items: center;
+    justify-content:center;
     flex-wrap: wrap;
 }
 .product{
@@ -219,7 +221,7 @@ ul {
 .underline {
     
     background-color: #ea1538;
-    width: 60px;
+    width: 65px;
     padding: 1px;
     
     margin-bottom: 35px;
