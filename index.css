@@ -2,7 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    overflow: auto;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
@@ -417,95 +416,100 @@ transition: all 0.3s ease;
 
 /* start of Events CSS */
 
-#EventPage {
-    width: 100%;
-    height: 80vh;
-    background:white;
-  }
-  
-  #EventPage.container {
-    padding-top: 72px;
-  }
-  
-  #EventPage h1 {
+.events-section {
+    width: 100vw;
+    height: 100%;
+    padding: 16px;
+}
+
+.events-heading {
     margin: 0 0 10px 0;
-    font-size: 48px;
-    font-weight: 500;
     color:black;
-    font-family:"Roboto";
-    
-  }
-  
-  #EventPage p {
+}
+
+.events-para {
     color: #6c6b70;
-    font-family: "Roboto";
-    font-size: 18px;
+}
+
+.explore{
+    border: none;
     padding: 12px;
-    text-align: center;
-  }
-  
-  .button {
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 28px 11px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px 0 0 0;
-    color: black;
-    background: transparent;
-  }
-  
-  .button:hover {
-    background: #209dd8;
-  }
-  
-  
-  
-  @media (max-width: 991px) {
-    #EventPage {
-      height: 100vh;
-      text-align: center;
+   cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    background-color:#DDC8AF;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.explore:hover{
+    background-color:black;
+    color:white;
+}
+
+.events-text-side {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width : 768px) {
+    .events-section {
+        display: flex;
+        flex-direction: column;
     }
-  
-    .img {
-      text-align: center;
+    .events-heading {
+        font-size: 32px;
     }
-  
-    .img {
-      width: 50%;
+    .events-para {
+        font-size: 18px;
     }
-  }
-  
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 28px;
-      line-height: 36px;
+    .events-img img{
+        width: 100%;
     }
-  
-     h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
+    .events-img {
+        padding: 15px;
+        order: 0;
     }
-  
-    .img {
-      width: 70%;
+    .events-text-side {
+        text-align: center;
+        order: 1;
     }
-  }
-  
-  @media (max-width: 575px) {
-    .img {
-      width: 80%;
+    .events-button {
+        margin-top: 20px;
     }
-  
-    .button {
-      font-size: 16px;
-      padding: 10px 24px 11px 24px;
+}
+
+@media screen and (min-width : 769px) {
+    .events-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
     }
-  }
+    .events-heading {
+        font-size: 42px;
+    }
+    .events-para {
+        font-size: 18px;
+    }
+    .events-img img{
+        width: 550px;
+    }
+    .events-text-side {
+        text-align: left;
+        order: 0;
+    }
+    .events-button {
+        margin-top: 20px;
+    }
+    .events-img {
+        align-self: center;
+        order: 1;
+        margin-left: 10px;
+    }
+}
   /* end of Events CSS */
 
 
