@@ -656,3 +656,14 @@ p {
   }
   
   /* end of contactUs Section */
+
+
+.indu{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background-image: url("indupic.jpg");
+    background-size:cover;
+    width:100vw;
+    height:80vh;
+  }
