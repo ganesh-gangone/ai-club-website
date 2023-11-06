@@ -1,59 +1,97 @@
-.team .member {
-    position: relative;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    border-radius: 5px;
-    background: #fff;
-    height: 100%;
-  }
-  
-  .team .member .image {
-    overflow: hidden;
-    width: 180px;
-    border-radius: 50%;
-  }
-  
-  
-  .team .member .team-info {
-    padding-left: 30px;
-  }
-  
-  .team .member h1 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 20px;
-    color: #37517e;
-  }
-  
-  .team .member span {
-    display: block;
-    font-size: 15px;
-    padding-bottom: 10px;
-    position: relative;
-    font-weight: 500;
-  }
-  
-  .team .member span::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 1px;
-    background: #cbd6e9;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .font-awesome {
-    height:30px;
-    width:30px;
-    border-radius:50px;
-    margin:15px;
-    background-color: #cbd6e9;
-  }
+.teams-section {
+  margin-top: 100px;
+}
 
-  .team-container {
-    margin:20px;
-    flex: auto;
-    flex-direction: row;
+.team-heading {
+  text-align: center;
+}
+
+.profile-logo img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.team-card {
+  border-radius: 12px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  width: 450px;
+  display: flex;    
+  justify-content: space-around;
+  flex-shrink: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 15px;
+}
+
+.profile-text-container {
+  align-self: center;
+  margin-left: 10px;
+}
+hr {
+  width: 25px;
+  background-color: aquamarine;    
+}
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-text-container h1 {
+  color: #37517e;
+}
+
+@media screen and (max-width:768px) {
+  .team-card {
+      margin: 10px;
+      width: 300px;
+      height: 125px;
   }
+  .profile-logo {
+      display: flex;
+  }
+  .profile-logo img {
+      height: 70px;
+      width: 70px;
+      align-self: center;
+  }
+  .profile-text-container {
+      text-align: left;
+      flex-wrap: wrap;
+  }
+  .profile-text-container h1 {
+      font-size: 18px;
+  }
+  .profile-text-container span {
+      font-size: 11px;
+  }
+  #teams-section {
+      margin-top: 15px;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .profile-logo img {
+      height: 100px;
+      width: 100px;
+      align-self: center;
+  }
+  .profile-logo {
+      display: flex;
+  }
+  .team-card {
+      height: 170px;
+  }
+  .profile-text-container h1 {
+      font-size: 24px;
+  }
+  .profile-text-container {
+      text-align: left;
+  }
+}
