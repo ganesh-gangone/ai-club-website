@@ -665,10 +665,11 @@ p {
     background-image: url("indupic.jpg");
     background-size:cover;
     width:100vw;
-    height:80vh;
+    height:100vh;
   }
 
 .indu-logo{
     width:50vw;
     height:20vh;
+    align-content: left;
 }
