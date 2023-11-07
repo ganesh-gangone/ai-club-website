@@ -1,15 +1,15 @@
-//let menu = document.querySelector('#menu-icon');
-//let navbar = document.querySelector('.navbar');
+let hamburgerBtn = document.getElementById("hamburger");
+let closeBtn = document.getElementById("close");
+let navElements = document.getElementById("navLinks");
 
-//menu.onclick =()=>{
-//menu.classList.toggle('bx-x');
-//menu.classList.toggle('open');
-//}
+hamburgerBtn.addEventListener('click', function() {
+    hamburgerBtn.classList.toggle("hide");
+    navElements.classList.toggle("navlinks");
+    closeBtn.classList.toggle("unhide");
+});
 
-const menu = document.querySelector("#menu-icon")
-const navbar = document.querySelector(".navbar")
-
-menu.addEventListener('click', () => {
-    menu.classList.toggle('bx-x')
-    navbar.classList.toggle('open')
-})
+closeBtn.addEventListener('click', () => {
+    closeBtn.classList.toggle("unhide");
+    hamburgerBtn.classList.toggle("hide");
+    navElements.classList.toggle("navlinks");
+});

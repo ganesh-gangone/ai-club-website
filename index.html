@@ -1,389 +1,277 @@
-<!Doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Landing Page</title>
-            
-        
+
         <link rel="stylesheet" href="index.css">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
-        
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;600&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="team.css"/>
-    <link rel="stylesheet" href="news.css"/>
-    
-    
-        
-</head>
-
-<body>
-    <!--Responsive Header-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-          <img src="logo.png" alt="" class="logo-1">
-          <a href="index.html" class="logo"><span>AI CLUB</span></a>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-              <a class="nav-link" href="index.html">
-                  Home
-              </a>
-              <a class="nav-link" href="news.html">News</a>
-              <a class="nav-link" href="#EventPage">Events</a>
-              <a class="nav-link" href="participants.html">Participants</a>
-              <a class="nav-link" href="index.html#team">Team</a>
-              <a class="nav-link" href="#contact">Contact Us</a>
-        </div>
-      </div>
-  </div>
-  </nav>
-    <!--End of Header Section-->
-
-        
-    <section id="index.html">
-        <div class="hero-section pt-5 pb-5" id="heroSection">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12 col-md-5 order-1 order-md-2">
-                  <div class="text-center">
-                    <img
-                      src="img.jpg"
-                      class="hero-section-img"
-                    />
-                  </div>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4bb2acf3b2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class = "navbar">
+            <div class = "logo-container">
+                <img src = "logo.png"/>
+                <span>AI CLUB</span>
+                <div class = "icons">
+                    <button id="hamburger">
+                        <i class="fa-solid fa-bars fa-xl"></i>
+                    </button>
+                    <button id="close" class="hide">
+                        <i class="fa-solid fa-xmark fa-xl"></i>
+                    </button>
                 </div>
-                <div class="col-12 col-md-7 order-2 order-md-1">
-                    <div class = "hero-align">
-                  <h1 class="hero-heading">
-                    ARTIFICIAL INTELLIGENCE
-                  </h1>
-                  <p class="hero-description">
-                    Artificial intelligence (AI) is a rapidly growing field with the potential to revolutionize many industries. 
-                        I have worked on a variety of AI projects, including building a machine learning model that can predict the risk of heart disease,  
-                        developing a chatbot that can answer customer questions about a product,
-                        and creating a virtual assistant that can help users with tasks such as scheduling appointments and making travel arrangements.
-                  </p>
-                  <button class="explore">Explore Now</button>
-                </div>
-                </div>
-              </div>
             </div>
-          </div>
-    </section>
-
-<!--Home page cards section-->
-<div id="newss">
-  <div class = "text-center news-heading">
-    <h1>Latest News</h1>
-  </div>
-  <div class = "container">
-    <div class = "row"> 
-      <div class="main pl-5">
-        <div class = "d-flex flex-column justify-content-center">
-          <div class="d-flex flex row justify-content-center align">
-            <div class = "col-12 col-md-4">
-              <div class="product space">
-                  <div class="imagee">
-                      <img src="0001.jpg" alt="" class="imgg">
-                  </div>
-                  <div class="namePrice">
-                      <h3 class="p-2">Bard AI</h3>
-                  </div>
-                  <p>Introducing Bard, Google's experimental conversational AI service powered by LaMDA — plus, new AI features in Search coming soon.</p>
-                  <div class="buyy">
-                      <a href="https://www.bing.com/news/search?q=Bard+AI+Google&qpvt=bard+ai+google&FORM=EWRE">
-                          <button>Know More</button>
-                      </a>
-                  </div>
-              </div>
+            <div class = "navlinks-container">
+                <div class = "navlinks" id = "navLinks">
+                    <a href = "index.html" class = "option">Home</a>
+                    <a href = "news.html" class = "option">News</a>
+                    <a href = "#EventsPage" class = "option">Events</a>
+                    <a href = "participants.html" class = "option">Participants</a>
+                    <a href = "#teams-section" class = "option">Team</a>
+                    <a href = "#contact-section" class = "option">Contact Us</a>
+                </div>
             </div>
-            <div class = "col-12 col-md-4">
-              <div class="product space">
-                <div class="imagee">
-                    <img src="0000.jpg" alt="" class="imgg">
+        </nav>
+        <section class="home" id="home">
+            <div class="imge">
+                <div class="hcon">
+                    <h1>ARTIFICIAL INTELLIGENCE</h1>
+                    <p>Artificial intelligence (AI) is a rapidly growing field with the potential to revolutionize many industries. 
+                    I have worked on a variety of AI projects, including building a machine learning model that can predict the risk of heart disease,  
+                    developing a chatbot that can answer customer questions about a product,
+                    and creating a virtual assistant that can help users with tasks such as scheduling appointments and making travel arrangements.</p>
+                    <button class="explore">
+                        Explore Now
+                    </button>
                 </div>
-                <div class="namePrice">
-                    <h3 class="p-2">Chat GPT</h3>
-                </div>
-                <p>ChatGPT, which stands for Chat Generative Pre-trained Transformer, is a large language model-based chatbot developed by OpenAI.</p>
-                <div class="buyy">
-                    <a href="https://www.bing.com/news/search?q=chatgpt+news&FORM=HDRSC7">
-                        <button>Know More</button>
-                    </a>
-                </div>
-              </div>
+                <div><img src="img.jpg" alt="" class="img-1"></div>
             </div>
-            <div class = "col-12 col-md-4">
-              <div class="product space">
-                <div class="imagee">
-                    <img src="0007.jpg" alt="" class="imgg">
-                </div>
-                <div class="namePrice">
-                    <h3 class="p-2">Reliance Jio</h3>
-                </div>
-                <p>Reliance jio Reportedly Hiring Professional for new AI Team.</p>
-                <div class="buyy">
-                    <a href="https://www.bing.com/news/search?q=reliance+jio+news&FORM=HDRSC7">
-                        <button>Know More</button>
-                    </a>
-                </div>
-              </div>
+        </section>
+        <section id = "news" class = "news">
+            <div class = "news-heading">
+                <h1>Latest News</h1>
             </div>
-          </div>
-          <div class="d-flex flex row justify-content-center align">
-            <div class = "col-12 col-md-4">
-              <div class="product space">
-                  <div class="imagee">
-                      <img src="0004.jpg" alt="" class="imgg">
-                  </div>
-                  <div class="namePrice">
-                      <h3>Snapchat AI</h3>
-                  </div>
-                  <p>Snapchat is the first to join the race and has announced that it is rolling out its own AI(Artificial Intelligence)chatbot.</p>
-                  <div class="buyy">
-                      <a href="https://www.bing.com/news/search?q=snapchat+ai&FORM=HDRSC7">
-                          <button>Know More</button>
-                      </a>
-                  </div>
-              </div>
-            </div>
-            <div class = "col-12 col-md-4">  
-              <div class="product space">
-                  <div class="imagee">
-                      <img src="0003.jpeg" alt="" class="imgg">
-                  </div>
-                  <div class="namePrice">
-                      <h3 class="p-2">Samsung AI</h3>
-                  </div>
-                  <p>Samsung, after creating a lot of hype with AI(Artificial intelligence),finally unveiled "Project Neon" last year at CES.</p>
-                  <div class="buyy">
-                      <a href="https://www.bing.com/news/search?q=samsung+ai+news&FORM=HDRSC7">
-                          <button>Know More</button>
-                      </a>
-                  </div>
-              </div>
-            </div>
-            <div class = "col-12 col-md-4">
-              <div class="product space">
-                  <div class="imagee">
-                      <img src="0009.jpg" alt="" class="imgg">
-                  </div>
-                  <div class="namePrice">
-                      <h3 class="p-2">AI Need Sleep!!</h3>
-                  </div>
-                  <p>AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
-                  <div class="buyy">
-                      <a href="https://www.bing.com/news/search?q=ai+need+sleep+news&FORM=HDRSC7">
-                          <button>Know More</button>
-                      </a>
-                  </div>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </div> 
-    </div>  
-  </div>    
-</div>
-<!--End of home page cards section-->
-
-
-<!--start of Event page-->
-<div class = "events-section">
-  <div class = "events-text-side">
-      <div class = "events-text">
-          <h1 class = "events-heading">Events</h1>
-          <p class = "events-para">Unleash creativity and learn at our interactive workshop. Don't miss captivating events that inspire and empower. Join to discuss ideas and gain diverse perspectives. Stay tuned for event details.</p>
-      </div>
-      <div class = "events-button">
-          <a href="sample_updated_event.html"><button class="explore">Know More</button></a>
-      </div>
-  </div>
-  <div class = "events-img">
-      <img src="Event.jpg" alt="">
-  </div>
-</div>
-  <!--end of Event page-->
-
-
-<!--start of Team section-->
-<section id = "teams-section">
-  <div class = "team-heading">
-      <h1>Our Team</h1>
-  </div>
-  <div class = "team-members">
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Chairperson</h1>
-              <span>G.Yashwin</span>
-              <hr>
-          </div>
-      </div>
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Vice Chairperson</h1>
-              <span>T.Supriya</span>
-              <hr>
-          </div>
-      </div>
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Developer Head</h1>
-              <span>G.Ganesh</span>
-              <hr>
-          </div>
-      </div>
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Editorial Head</h1>
-              <span>G.Saketh & S.Sri Hari</span>
-              <hr>
-          </div>
-      </div>
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Management Head</h1>
-              <span>P.Rishitha & P.Krushitha</span>
-              <hr>
-          </div>
-      </div>
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Technical Head</h1>
-              <span>G.Sowmya & G.Shreya</span>
-              <hr>
-          </div>
-      </div>
-      <div class = "team-card">
-          <div class = "profile-logo">
-              <img src = "profile.jpg"/>
-          </div>
-          <div class = "profile-text-container">
-              <h1>Design Head</h1>
-              <span>G.pavan</span>
-              <hr>
-          </div>
-      </div>
-  </div>
-</secion>
-  <!-- End Team Section -->
-
-
-<!--start of ContactUs Section-->
-
-<section class = "contact" id = "contact-section">
-  <div>
-      <h1>Contact</h1>
-  </div>
-  <div class = "info">
-      <div class="address">
-          <i class="fa-solid fa-location-dot"></i>
-        <h4>Location:</h4>
-        <p>Sri Indu College of Engineering and Technology Sheriguda, Hyderabad, Telangana, </p>
-      </div>
-      <div class="email">
-          <i class="fa-regular fa-envelope"></i>
-        <h4>Email:</h4>
-        <p>aiclub.sicet@gmail.com</p>
-      </div>
-      <div class="phone">
-          <i class="fa-solid fa-mobile"></i>
-        <h4>Call:</h4>
-        <p>+91940*****10</p>
-      </div>
-  </div>
-</section>
-<!--end of contactUS Section-->
-
-<section class="footerrr">
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Menu</h4>
-                    <div class="underline"></div>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Contribute</a></li>
-                        <li><a href="#">Team</a></li>
-                    </ul>
+            <div class = "news-cards-container">
+                <div class = "news-card product">
+                    <div>
+                        <img src = "0001.jpg" alt = "" class = "news-image"/>
+                    </div>
+                    <h1 class = "namePrice">Bard AI</h1>
+                    <p class = "news-para">Introducing Bard, Google's experimental conversational AI service powered by LaMDA — plus, new AI features in Search coming soon.</p>
+                    <button class = "explore news-btn">Know More</button>
                 </div>
-                
-                <div class="footer-col">
-                    <h4>News</h4>
-                    <div class="underline"></div>
-                    <ul>
-                        <li><a href="#">Trending AI News</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Innovative</a></li>
-                        
-                    </ul>
+                <div class = "news-card product">
+                    <div>
+                        <img src = "0000.jpg" alt = "" class = "news-image"/>
+                    </div>
+                    <h1 class = "namePrice">Chat GPT</h1>
+                    <p class = "news-para">ChatGPT, which stands for Chat Generative Pre-trained Transformer, is a large language model-based chatbot developed by OpenAI.</p>
+                    <button class = "explore news-btn">Know More</button>
                 </div>
-                <div class="footer-col">
-                    <h4>Events</h4>
-                    <div class="underline"></div>
-                    <ul>
-                        <li><a href="#">Upcoming</a></li>
-                        <li><a href="#">Ongoing</a></li>
-                        <li><a href="#">Completed</a></li>
-
-                    </ul>
+                <div class = "news-card product">
+                    <div>
+                        <img src = "0007.jpg" alt = "" class = "news-image"/>
+                    </div>
+                    <h1 class = "namePrice">Reliance Jio</h1>
+                    <p class = "news-para">Reliance jio Reportedly Hiring Professional for new AI Team.</p>
+                    <button class = "explore news-btn">Know More</button>
                 </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="underline"></div>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-google"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-
+                <div class = "news-card product">
+                    <div>
+                        <img src = "0004.jpg" alt = "" class = "news-image"/>
+                    </div>
+                    <h1 class = "namePrice">Snapchat AI</h1>
+                    <p class = "news-para">Snapchat is the first to join the race and has announced that it is rolling out its own AI(Artificial Intelligence)chatbot.</p>
+                    <button class = "explore news-btn">Know More</button>
+                </div>
+                <div class = "news-card product">
+                    <div>
+                        <img src = "0003.jpeg" alt = "" class = "news-image"/>
+                    </div>
+                    <h1 class = "namePrice">Samsung AI</h1>
+                    <p class = "news-para">Samsung, after creating a lot of hype with AI(Artificial intelligence),finally unveiled "Project Neon" last year at CES.</p>
+                    <button class = "explore news-btn">Know More</button>
+                </div>
+                <div class = "news-card product">
+                    <div>
+                        <img src = "0009.jpg" alt = "" class = "news-image"/>
+                    </div>
+                    <h1 class = "namePrice">AI Need Sleep!!</h1>
+                    <p class = "news-para">AI Need "Sleep" to Work Efficiently,Just Like Humans:Researchers.</p>
+                    <button class = "explore news-btn">Know More</button>
+                </div>
+            </div>
+        </section>
+        <section class = "events-section" id = "EventsPage">
+            <div class = "events-text-side">
+                <div class = "events-text">
+                    <h1 class = "events-heading">Events</h1>
+                    <p class = "events-para">Unleash creativity and learn at our interactive workshop. Don't miss captivating events that inspire and empower. Join to discuss ideas and gain diverse perspectives. Stay tuned for event details.</p>
+                </div>
+                <div class = "events-button">
+                    <a href="sample_updated_event.html"><button class="explore">Know More</button></a>
+                </div>
+            </div>
+            <div class = "events-img">
+                <img src="Event.jpg" alt="">
+            </div>
+        </section>
+        <section id = "teams-section">
+            <div class = "team-heading">
+                <h1>Our Team</h1>
+            </div>
+            <div class = "team-members">
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Chairperson</h1>
+                        <span>G.Yashwin</span>
+                        <hr>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Vice Chairperson</h1>
+                        <span>T.Supriya</span>
+                        <hr>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Developer Head</h1>
+                        <span>G.Ganesh</span>
+                        <hr>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Editorial Head</h1>
+                        <span>G.Saketh & S.Sri Hari</span>
+                        <hr>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Management Head</h1>
+                        <span>P.Rishitha & P.Krushitha</span>
+                        <hr>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Technical Head</h1>
+                        <span>G.Sowmya & G.Shreya</span>
+                        <hr>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <div class = "profile-logo">
+                        <img src = "profile.jpg"/>
+                    </div>
+                    <div class = "profile-text-container">
+                        <h1>Design Head</h1>
+                        <span>G.pavan</span>
+                        <hr>
                     </div>
                 </div>
             </div>
-        </div>
-
-    </footer>
-</section>
+        </section>
+        <section class = "contact" id = "contact-section">
+            <div>
+                <h1 class = "contact-heading">Contact</h1>
+            </div>
+            <div class = "info">
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                  <h4>Location:</h4>
+                  <p>Sri Indu College of Engineering and Technology Sheriguda, Hyderabad, Telangana, </p>
+                </div>
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>aiclub.sicet@gmail.com</p>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-mobile"></i>
+                  <h4>Call:</h4>
+                  <p>+91940*****10</p>
+                </div>
+            </div>
+        </section>
+        <section class="footerrr">
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Menu</h4>
+                            <div class="underline"></div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Contribute</a></li>
+                                <li><a href="#">Team</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>News</h4>
+                            <div class="underline"></div>
+                            <ul>
+                                <li><a href="#">Trending AI News</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Innovative</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Events</h4>
+                            <div class="underline"></div>
+                            <ul>
+                                <li><a href="#">Upcoming</a></li>
+                                <li><a href="#">Ongoing</a></li>
+                                <li><a href="#">Completed</a></li>
+        
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="underline"></div>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <script src = "style.js" type="text/javascript"></script>
+    </body>
 </html>
