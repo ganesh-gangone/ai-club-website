@@ -404,7 +404,7 @@ hr {
 
 /* Hero Section CSS */
 .home{
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: var(--bg-color);
 }
 .imge{
@@ -668,9 +668,127 @@ ul{
         font-size: 56px;
     }
     .footer{
-        margin-top: 50px;
+        margin-top: 10px;
     }
 }
 .obj{
     color:black;
+}
+
+/* College image Section CSS */
+.college-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.college-image div {
+    align-self: center;
+    width: 100%;
+}
+.college-image div img {
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .college-image div img {
+        height: 70vh;
+    }
+    .college-image div {
+        height: 70vh;
+        width: 350px;
+    }
+}
+
+.persons-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.persons-card img {
+    height: 280px;
+    width: 280px;
+}
+.persons-text {
+    margin: 20px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:577px) and (max-width:1030px) {
+    .person-1 img {
+        height: 200px;
+        width: 200px;
+        order: 0;
+    }
+    .person-1 div {
+        order: 1;
+    }
+    .persons-text h1 {
+        font-size: 15px;
+    }
+    .persons-text p {
+        font-size: 12px;
+    }
+    .person-2 img {
+        height: 200px;
+        width: 200px;
+        order: 1;
+    }
+    .person-2 div {
+        order: 0;
+        text-align: right;
+    }
+    .person {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:1031px) {
+    .person-1 img {
+        order: 0;
+    }
+    .person-1 div {
+        order: 1;
+    }
+    .person-2 img {
+        order: 1;
+    }
+    .person-2 div {
+        order: 0;
+        text-align: right;
+    }
+    .person {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .person {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .persons-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .persons-card img {
+        height: 200px;
+        width: 200px;
+    }
+    .persons-card div {
+        text-align: center;
+    }
 }
