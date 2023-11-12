@@ -162,7 +162,7 @@ hr {
     color: #37517e;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:576px) {
     .team-card {
         margin: 10px;
         width: 300px;
@@ -299,7 +299,7 @@ hr {
     }
     .logo-container span {
         font-weight: bold;
-        font-size: 28px;
+        font-size: 26px;
         align-self: center;
         margin-left: 30px;
         margin-top: 10px;
@@ -476,8 +476,8 @@ hr {
 
 .product {
     background-color: #fff;
-    width:300px;
-    height: 60vh;
+    width:330px;
+    height: fit-content;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
@@ -534,9 +534,13 @@ hr {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
     .news-card {
-        height: 66vh;
+        padding: 20px;
+    }
+    .product {
+        width: 300px;
+        height: auto;
     }
 }
 
