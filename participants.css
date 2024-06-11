@@ -105,11 +105,44 @@
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     width:60vh;
-    height:70vh;
+    height:80vh;
     margin:20px;
 }
 @media (min-width:786px){
     .product{
+        display: flex;
+        width:20vw;
+        
+    }
+}
+
+
+.containerr1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.products1{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.product1{
+    display:flex;
+    flex-direction:column;
+    background-color: #4a83b6;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    justify-content:space-between;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width:60vh;
+    height:60vh;
+    margin:20px;
+}
+@media (min-width:786px){
+    .product1{
         display: flex;
         width:20vw;
         

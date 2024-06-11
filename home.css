@@ -57,7 +57,7 @@ body {
 
 }
 
-@media only (max-width: 411px) {
+@media(max-width: 411px) {
     .swiper-slide img {
         width: 50%;
         height: 50%;
