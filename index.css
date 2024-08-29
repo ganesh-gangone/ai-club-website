@@ -796,8 +796,8 @@ ul{
         align-items: center;
     }
     .persons-card img {
-        height: 300px;
-        width: 400px;
+        height: 400px;
+        width: 500px;
     }
     .persons-card div {
         text-align: center;
