@@ -9,19 +9,24 @@ body{
 }
 
 .explore-menu-section{
-    border-radius:;
+    border-radius:10px;
     border-width: 2px;
-    padding:15px;
+    padding:25px;
     border-spacing: 15px 50px;
     border-collapse: separate;
     background-color:#4a83b6;
     line-height: 10px;
     color: white;
+    height: 95% ;
+    display: grid;
+
     
 }
 
 .img3{
-    height: 200px;
+    height: 230px;
+    width: 100%;
+    border-radius:10px;
 }
 
 
@@ -49,4 +54,25 @@ body{
 .heading-2{
     text-align: center;
     margin-top: -40PX;
+}
+.nm{
+    padding-top:15px;
+}
+.explore{
+    border: none;
+    margin-left: 18px;
+    padding: 12px;
+   cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    background-color:#DDC8AF;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.explore:hover{
+    background-color:black;
+    color:white;
 }

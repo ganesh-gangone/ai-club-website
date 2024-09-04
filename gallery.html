@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
+
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 p-4">
           <h2 class="main-heading">GALLEARY</h2>
         </div>
                     <!--INANUGRATION-->
-        <div class="col-12">
+        <div class="col-12" p-4>
           <h3 class="heading">INAUGRATION</h3>
         </div>
 
@@ -40,6 +41,30 @@
           <img src="ing10.JPG" onclick="openFullImg(this.src)">
           <img src="ing11.JPG" onclick="openFullImg(this.src)">
         </div>
+        <!---Teachers Day-->
+        <div class="col-12">
+          <h3 class="heading">TEACHERS DAY</h3>
+        </div>
+
+        <div class="full-img" id="fullImgBox">
+          <img src="TEACHERS DAY IMAGES\7.JPG" id="fullImg"> 
+          <span onclick="closeFullImg()">X</span>
+      </div>
+
+      <div class="img-gallery">
+        <img src="TEACHERS DAY IMAGES\7.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\1.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\2.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\3.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\4.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\5.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\6.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\8.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\9.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\10.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\11.JPG" onclick="openFullImg(this.src)">
+        <img src="TEACHERS DAY IMAGES\12.JPG" onclick="openFullImg(this.src)">
+      </div>
         <!---AVINYA 2K24-->
         <div class="col-12">
           <h3 class="heading">AVINYA 2K24</h3>
@@ -79,7 +104,9 @@
 
       </div>
     </div>
-
+   <div class="text-left">
+      <a href="index.html"><button class="explore">Back</button></a>
+  </div> 
   <script>
     var fullImgBox = document.getElementById("fullImgBox");
     var fullImg = document.getElementById("fullImg");

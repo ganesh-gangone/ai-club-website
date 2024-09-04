@@ -4,12 +4,12 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #ecf4fb;
+    background-color:white;
 }
 
 .main-heading{
     text-align: center;
-    padding-top: 30px;
+    padding-bottom: -90px;
 }
 
 .heading{
@@ -59,4 +59,22 @@ body{
     font-size: 30px;
     color: #fff;
     cursor: pointer;
+}
+.explore{
+    border: none;
+    margin-left: 18px;
+    padding: 12px;
+   cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    background-color:#DDC8AF;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.explore:hover{
+    background-color:black;
+    color:white;
 }
