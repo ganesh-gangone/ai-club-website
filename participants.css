@@ -111,9 +111,10 @@
 @media (min-width:786px){
     .product{
         display: flex;
-        width:20vw;
+        width:19vw;
         
     }
+
 }
 
 
