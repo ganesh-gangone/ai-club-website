@@ -108,7 +108,7 @@
     height:80vh;
     margin:20px;
 }
-@media (max-width:767px) and (min-width:768px){
+@media (min-width:786px){
     .product{
         display: flex;
         width:20vw;
@@ -141,7 +141,7 @@
     height:60vh;
     margin:20px;
 }
-@media (max-width:767px) and (min-width:768px){
+@media (min-width:786px){
     .product1{
         display: flex;
         width:20vw;
