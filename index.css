@@ -713,10 +713,33 @@ ul{
 
 /* College image Section CSS */
 .college-image {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    overflow-y: hidden;
+    align-items: center;
+    position: relative;
+}
+.college-image::before{
+    content: '';
+    background-image: url("college.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.70;
+}
+.head12{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color: rgb(253, 0, 0);
+    padding-bottom: 490px;
 }
 .college-image div {
     align-self: center;
