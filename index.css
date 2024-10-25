@@ -29,6 +29,7 @@
 
 .events-para {
     color: #6c6b70;
+    text-align: justify;
 }
 .events-img{
     padding-right: -60px;
@@ -72,7 +73,7 @@
         font-size: 18px;
     }
     .events-img img{
-        width: 90%;
+        width: 60%;
         height: 80%;
     }
     .events-img {
@@ -430,16 +431,15 @@ hr {
     display: flex;
 }
 .img-1{
-    width: 80vh;
-    height: 70vh;
-    margin-left: -145px;
+    width: 60vh;
+    height: 55vh;
+    margin-right: 750px;
 }
 .hcon{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 50px;
 }
 .hcon h1{
     font-size:3rem;
@@ -451,14 +451,20 @@ hr {
     color: #24262b;
     line-height: 2.5;
     padding: 20px;
+    text-align: justify;
 }
 
 @media screen and (max-width:768px){
     .hcon h1 {
         font-size: 30px;
+        justify-content: left;
+        text-align: start;
     }
     .hcon p {
         font-size: 15px;
+        text-align: justify;
+        justify-content: left;
+        
     }
     .hcon {
         order: 1;
@@ -473,7 +479,7 @@ hr {
         height: 300px;
         width: 350px;
         order: 0;
-        margin-left: 20px;
+        margin-left: 720px;
     }
     .imge {
         display: flex;
