@@ -414,7 +414,7 @@ height: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 50px;
+  padding-left: 0;
   text-align: justify;
 }
 .hcon h1{
