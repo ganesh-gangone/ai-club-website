@@ -419,7 +419,7 @@ height: 90%;
 }
 .hcon h1{
   font-size:3rem;
-  padding-left:50px;
+  padding-left:0;
   color: #000;
   text-align: justify;
 }
@@ -427,7 +427,7 @@ height: 90%;
   font-size: .8rem;
   color: #24262b;
   line-height: 2.5;
-  padding: 20px;
+  padding-left: 0;
   text-align: justify;
 }
 
