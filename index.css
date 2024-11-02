@@ -717,8 +717,8 @@ ul{
   text-align: center;
   justify-content: center;
   position: relative;
-  color: black;
-  /* padding-bottom: 490px; */
+  color: rgb(241, 11, 11);
+  padding-bottom: 690px;
 }
 .college-image div {
   align-self: center;
